@@ -1,0 +1,4894 @@
+{
+  "version": 1,
+  "width": 133,
+  "height": 25,
+  "duration": 183.836894,
+  "command": null,
+  "title": null,
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.563622,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                    \r \r\u001b]2;310230212@MACC02QX17YG8WP-2: ~/projects/play/fargate/ecs-service-with-alb/test\u0007\u001b]1;..with-alb/test\u0007"
+    ],
+    [
+      0.034725,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mtest\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      5.4e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.5e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      0.945953,
+      "t"
+    ],
+    [
+      0.101555,
+      "\bte"
+    ],
+    [
+      0.144201,
+      "r"
+    ],
+    [
+      0.174556,
+      "r"
+    ],
+    [
+      0.169322,
+      "aform"
+    ],
+    [
+      0.359732,
+      " "
+    ],
+    [
+      0.183785,
+      "a"
+    ],
+    [
+      0.112191,
+      "p"
+    ],
+    [
+      0.18388,
+      "p"
+    ],
+    [
+      0.183037,
+      "l"
+    ],
+    [
+      0.225039,
+      "y"
+    ],
+    [
+      0.207811,
+      "\u001b[?1l\u001b>"
+    ],
+    [
+      3e-05,
+      "\u001b[?2004l\r\r\n"
+    ],
+    [
+      0.00145,
+      "\u001b]2;terraform apply\u0007\u001b]1;terraform\u0007"
+    ],
+    [
+      0.657191,
+      "\u001b[0m\u001b[1mdata.template_file.instance_profile: Refreshing state...\u001b[0m\r\n"
+    ],
+    [
+      4.4e-05,
+      "\u001b[0m\u001b[1mdata.template_file.ecs_service_role_policy: Refreshing state...\u001b[0m\r\n"
+    ],
+    [
+      0.000132,
+      "\u001b[0m\u001b[1mdata.template_file.instance_role_trust_policy: Refreshing state...\u001b[0m\r\n"
+    ],
+    [
+      2.882135,
+      "\u001b[0m\u001b[1mdata.aws_iam_policy_document.ecs_service_role: Refreshing state...\u001b[0m\r\n"
+    ],
+    [
+      5.8e-05,
+      "\u001b[0m\u001b[1mdata.aws_iam_policy_document.ecs_tasks_execution_role: Refreshing state...\u001b[0m\r\n"
+    ],
+    [
+      0.00033,
+      "\u001b[0m\u001b[1mdata.aws_ami.aws_optimized_ecs: Refreshing state...\u001b[0m\r\n\u001b[0m\u001b[1mdata.aws_ami.stable_coreos: Refreshing state...\u001b[0m\r\n"
+    ],
+    [
+      4.832812,
+      "\r\n"
+    ],
+    [
+      7.7e-05,
+      "An execution plan has been generated and is shown below.\r\n"
+    ],
+    [
+      9.4e-05,
+      "Resource actions are indicated with the following symbols:\r\n"
+    ],
+    [
+      3.6e-05,
+      "  \u001b[32m+\u001b[0m create\r\n"
+    ],
+    [
+      0.0001,
+      " \u001b[36m<=\u001b[0m read (data resources)\r\n\u001b[0m\r\n"
+    ],
+    [
+      9.3e-05,
+      "Terraform will perform the following actions:\r\n\r\n"
+    ],
+    [
+      0.000755,
+      "\u001b[36m \u001b[36m<=\u001b[0m \u001b[36mdata.template_file.blog\r\n"
+    ],
+    [
+      0.000112,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.6e-05,
+      "      rendered:                                    <computed>\r\n"
+    ],
+    [
+      0.001562,
+      "      template:                                    \"[\\n  {\\n    \\\"essential\\\": true,\\n    \\\"memoryReservation\\\": null,\\n    \\\"image\\\": \\\"npalm/040code.github.io:latest\\\",\\n    \\\"name\\\": \\\"${container_name}\\\",\\n    \\\"portMappings\\\": [\\n      {\\n        \\\"hostPort\\\": ${container_port},\\n        \\\"protocol\\\": \\\"tcp\\\",\\n        \\\"containerPort\\\": ${container_port}\\n      }\\n    ],\\n    \\\"environment\\\": [],\\n    \\\"logConfiguration\\\": {\\n      \\\"logDriver\\\": \\\"awslogs\\\",\\n      \\\"options\\\": {\\n        \\\"awslogs-group\\\": \\\"${log_group_name}\\\",\\n        \\\"awslogs-region\\\": \\\"${log_group_region}\\\",\\n        \\\"awslogs-stream-prefix\\\": \\\"${log_group_prefix}\\\"\\n      }\\n    }\\n  }\\n]\\n\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "      vars.%:                                      \"5\"\r\n"
+    ],
+    [
+      9.5e-05,
+      "      vars.container_name:                         \"blog\"\r\n"
+    ],
+    [
+      9.5e-05,
+      "      vars.container_port:                         \"80\"\r\n"
+    ],
+    [
+      9.3e-05,
+      "      vars.log_group_name:                         \"blog\"\r\n"
+    ],
+    [
+      0.000137,
+      "      vars.log_group_prefix:                       \"blog-040\"\r\n"
+    ],
+    [
+      6e-05,
+      "      vars.log_group_region:                       \"us-east-1\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000114,
+      "\u001b[0m\u001b[36m \u001b[36m<=\u001b[0m \u001b[36mdata.template_file.blog_ecs\r\n"
+    ],
+    [
+      0.000126,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.4e-05,
+      "      rendered:                                    <computed>\r\n"
+    ],
+    [
+      0.001071,
+      "      template:                                    \"[\\n  {\\n    \\\"essential\\\": true,\\n    \\\"memoryReservation\\\": null,\\n    \\\"image\\\": \\\"npalm/040code.github.io:latest\\\",\\n    \\\"name\\\": \\\"${container_name}\\\",\\n    \\\"portMappings\\\": [\\n      {\\n        \\\"hostPort\\\": ${container_port},\\n        \\\"protocol\\\": \\\"tcp\\\",\\n        \\\"containerPort\\\": ${container_port}\\n      }\\n    ],\\n    \\\"environment\\\": [],\\n    \\\"logConfiguration\\\": {\\n      \\\"logDriver\\\": \\\"awslogs\\\",\\n      \\\"options\\\": {\\n        \\\"awslogs-group\\\": \\\"${log_group_name}\\\",\\n        \\\"awslogs-region\\\": \\\"${log_group_region}\\\",\\n        \\\"awslogs-stream-prefix\\\": \\\"${log_group_prefix}\\\"\\n      }\\n    }\\n  }\\n]\\n\"\r\n"
+    ],
+    [
+      0.000107,
+      "      vars.%:                                      \"5\"\r\n"
+    ],
+    [
+      8.9e-05,
+      "      vars.container_name:                         \"blog\"\r\n"
+    ],
+    [
+      9.3e-05,
+      "      vars.container_port:                         \"80\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "      vars.log_group_name:                         \"blog\"\r\n"
+    ],
+    [
+      7e-05,
+      "      vars.log_group_prefix:                       \"blog-040\"\r\n"
+    ],
+    [
+      0.000114,
+      "      vars.log_group_region:                       \"us-east-1\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      9.4e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32maws_cloudwatch_log_group.log_group\r\n"
+    ],
+    [
+      0.000113,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.3e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      6.2e-05,
+      "      name:                                        \"blog\"\r\n"
+    ],
+    [
+      4e-05,
+      "      retention_in_days:                           \"0\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      9.6e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32maws_ecs_cluster.cluster\r\n"
+    ],
+    [
+      0.000126,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      7.2e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      7.6e-05,
+      "      name:                                        \"blog-ecs-cluster\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      8.4e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32maws_iam_role.ecs_tasks_execution_role\r\n"
+    ],
+    [
+      0.000103,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      5.8e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      0.000317,
+      "      assume_role_policy:                          \"{\\n  \\\"Version\\\": \\\"2012-10-17\\\",\\n  \\\"Statement\\\": [\\n    {\\n      \\\"Sid\\\": \\\"\\\",\\n      \\\"Effect\\\": \\\"Allow\\\",\\n      \\\"Action\\\": \\\"sts:AssumeRole\\\",\\n      \\\"Principal\\\": {\\n        \\\"Service\\\": \\\"ecs-tasks.amazonaws.com\\\"\\n      }\\n    }\\n  ]\\n}\"\r\n"
+    ],
+    [
+      5.5e-05,
+      "      create_date:                                 <computed>\r\n"
+    ],
+    [
+      0.000136,
+      "      force_detach_policies:                       \"false\"\r\n"
+    ],
+    [
+      0.000142,
+      "      name:                                        \"blog-ecs-task-execution-role\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "      path:                                        \"/\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "      unique_id:                                   <computed>\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.00017,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32maws_iam_role_policy_attachment.ecs_tasks_execution_role\r\n"
+    ],
+    [
+      9.6e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      0.000153,
+      "      policy_arn:                                  \"arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "      role:                                        \"blog-ecs-task-execution-role\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      5.6e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32maws_key_pair.key\r\n"
+    ],
+    [
+      0.000101,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.2e-05,
+      "      fingerprint:                                 <computed>\r\n"
+    ],
+    [
+      6.2e-05,
+      "      key_name:                                    \"test\"\r\n"
+    ],
+    [
+      0.000578,
+      "      public_key:                                  \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRlxl9BAK4DKdS5CCEXuQci0BsB861ncbXTzKlRL03l2EUCGlfL42bDonIuT8luzp9cR/3aTajroILTfG6ApBDuNqB+/0A/0WOKCq7skj8ATVB9I7mRf3ynoB50kWsqm+N1ACh+codp4b8tU7BGlRSSKfhmzCyisGZdx4Uk4791ooilMGcoSIomlidt+46YDcsKAncIn814zAAG+1Uni6UCU3D7OYO3KtY6+U+Auvg3rRRVpeDElAu/B4D4qg1IyWZzgGH0I7r4mMdYuT/hw+rnxvDMJg2kB1lhgVOGb6CFm1GpjiZz5+RWgygEjlD+3o/IF+8jKFISlHpQQmUBsMV demo\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000103,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32maws_security_group.awsvpc_sg\r\n"
+    ],
+    [
+      5.7e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      6.7e-05,
+      "      description:                                 \"Managed by Terraform\"\r\n"
+    ],
+    [
+      5.2e-05,
+      "      egress.#:                                    \"1\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "      egress.1403647648.cidr_blocks.#:             \"1\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "      egress.1403647648.cidr_blocks.0:             \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      9.3e-05,
+      "      egress.1403647648.description:               \"\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "      egress.1403647648.from_port:                 \"0\"\r\n"
+    ],
+    [
+      5e-05,
+      "      egress.1403647648.ipv6_cidr_blocks.#:        \"0\"\r\n"
+    ],
+    [
+      9.4e-05,
+      "      egress.1403647648.prefix_list_ids.#:         \"0\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "      egress.1403647648.protocol:                  \"tcp\"\r\n"
+    ],
+    [
+      4.4e-05,
+      "      egress.1403647648.security_groups.#:         \"0\"\r\n"
+    ],
+    [
+      0.000101,
+      "      egress.1403647648.self:                      \"false\"\r\n"
+    ],
+    [
+      0.000103,
+      "      egress.1403647648.to_port:                   \"65535\"\r\n"
+    ],
+    [
+      8e-05,
+      "      ingress.#:                                   \"1\"\r\n"
+    ],
+    [
+      9.3e-05,
+      "      ingress.2165049311.cidr_blocks.#:            \"1\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "      ingress.2165049311.cidr_blocks.0:            \"10.0.0.0/16\"\r\n"
+    ],
+    [
+      5.4e-05,
+      "      ingress.2165049311.description:              \"\"\r\n"
+    ],
+    [
+      6.6e-05,
+      "      ingress.2165049311.from_port:                \"80\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "      ingress.2165049311.ipv6_cidr_blocks.#:       \"0\"\r\n"
+    ],
+    [
+      8e-05,
+      "      ingress.2165049311.protocol:                 \"tcp\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "      ingress.2165049311.security_groups.#:        \"0\"\r\n"
+    ],
+    [
+      4.5e-05,
+      "      ingress.2165049311.self:                     \"false\"\r\n"
+    ],
+    [
+      9.6e-05,
+      "      ingress.2165049311.to_port:                  \"80\"\r\n"
+    ],
+    [
+      9.5e-05,
+      "      name:                                        \"blog-awsvpc-cluster-sg\"\r\n"
+    ],
+    [
+      2.9e-05,
+      "      owner_id:                                    <computed>\r\n"
+    ],
+    [
+      6.5e-05,
+      "      revoke_rules_on_delete:                      \"false\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      7.9e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      0.000118,
+      "      tags.Name:                                   \"blog-ecs-cluster-sg\"\r\n"
+    ],
+    [
+      0.000155,
+      "      vpc_id:                                      \"${module.vpc.vpc_id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      7.6e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-ecs.aws_alb.main\r\n"
+    ],
+    [
+      0.000111,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      0.000122,
+      "      access_logs.#:                               <computed>\r\n"
+    ],
+    [
+      0.000159,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      0.000116,
+      "      arn_suffix:                                  <computed>\r\n"
+    ],
+    [
+      9.2e-05,
+      "      dns_name:                                    <computed>\r\n"
+    ],
+    [
+      7.8e-05,
+      "      enable_deletion_protection:                  \"false\"\r\n"
+    ],
+    [
+      5.3e-05,
+      "      idle_timeout:                                \"60\"\r\n"
+    ],
+    [
+      8.9e-05,
+      "      internal:                                    \"false\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "      ip_address_type:                             <computed>\r\n"
+    ],
+    [
+      6.8e-05,
+      "      load_balancer_type:                          \"application\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "      name:                                        <computed>\r\n"
+    ],
+    [
+      6e-05,
+      "      security_groups.#:                           <computed>\r\n"
+    ],
+    [
+      4.7e-05,
+      "      subnets.#:                                   <computed>\r\n"
+    ],
+    [
+      0.0001,
+      "      tags.%:                                      \"3\"\r\n"
+    ],
+    [
+      8e-05,
+      "      tags.Application:                            \"blog-040-ecs\"\r\n"
+    ],
+    [
+      0.000106,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "      tags.Name:                                   \"blog-blog-040-ecs\"\r\n"
+    ],
+    [
+      8e-05,
+      "      vpc_id:                                      <computed>\r\n"
+    ],
+    [
+      5.1e-05,
+      "      zone_id:                                     <computed>\r\n\u001b[0m\r\n"
+    ],
+    [
+      9.2e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-ecs.aws_alb_listener.main\r\n"
+    ],
+    [
+      6.8e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      7.5e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      6e-05,
+      "      default_action.#:                            \"1\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "      default_action.0.target_group_arn:           \"${aws_alb_target_group.main.id}\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "      default_action.0.type:                       \"forward\"\r\n"
+    ],
+    [
+      5.6e-05,
+      "      load_balancer_arn:                           \"${aws_alb.main.id}\"\r\n"
+    ],
+    [
+      0.000108,
+      "      port:                                        \"80\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "      protocol:                                    \"HTTP\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "      ssl_policy:                                  <computed>\r\n\u001b[0m\r\n"
+    ],
+    [
+      7.3e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-ecs.aws_alb_target_group.main\r\n"
+    ],
+    [
+      8.5e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      0.000105,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      4.7e-05,
+      "      arn_suffix:                                  <computed>\r\n"
+    ],
+    [
+      6.6e-05,
+      "      deregistration_delay:                        \"300\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "      health_check.#:                              \"1\"\r\n"
+    ],
+    [
+      0.000143,
+      "      health_check.0.healthy_threshold:            \"3\"\r\n"
+    ],
+    [
+      9.5e-05,
+      "      health_check.0.interval:                     \"30\"\r\n"
+    ],
+    [
+      4.8e-05,
+      "      health_check.0.matcher:                      <computed>\r\n"
+    ],
+    [
+      0.000698,
+      "      health_check.0.path:                         <computed>\r\n"
+    ],
+    [
+      0.000133,
+      "      health_check.0.port:                         \"traffic-port\"\r\n"
+    ],
+    [
+      0.000259,
+      "      health_check.0.protocol:                     \"HTTP\"\r\n"
+    ],
+    [
+      0.000176,
+      "      health_check.0.timeout:                      <computed>\r\n"
+    ],
+    [
+      7.7e-05,
+      "      health_check.0.unhealthy_threshold:          \"3\"\r\n"
+    ],
+    [
+      0.000107,
+      "      name:                                        <computed>\r\n"
+    ],
+    [
+      6.7e-05,
+      "      port:                                        \"80\"\r\n"
+    ],
+    [
+      0.000131,
+      "      protocol:                                    \"HTTP\"\r\n"
+    ],
+    [
+      9.9e-05,
+      "      stickiness.#:                                <computed>\r\n"
+    ],
+    [
+      8.7e-05,
+      "      tags.%:                                      \"3\"\r\n"
+    ],
+    [
+      0.000115,
+      "      tags.Application:                            \"blog-040-ecs\"\r\n"
+    ],
+    [
+      9.2e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      0.000105,
+      "      tags.Name:                                   \"blog-blog-040-ecs\"\r\n"
+    ],
+    [
+      7e-05,
+      "      target_type:                                 \"ip\"\r\n"
+    ],
+    [
+      9.9e-05,
+      "      vpc_id:                                      \"${var.vpc_id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.00015,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-ecs.aws_ecs_service.awsvpc_alb\r\n"
+    ],
+    [
+      9.3e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      0.000104,
+      "      cluster:                                     \"${var.ecs_cluster_id}\"\r\n"
+    ],
+    [
+      9.7e-05,
+      "      deployment_maximum_percent:                  \"200\"\r\n"
+    ],
+    [
+      0.000119,
+      "      deployment_minimum_healthy_percent:          \"100\"\r\n"
+    ],
+    [
+      5.7e-05,
+      "      desired_count:                               \"1\"\r\n"
+    ],
+    [
+      0.000129,
+      "      iam_role:                                    <computed>\r\n"
+    ],
+    [
+      0.000105,
+      "      launch_type:                                 \"EC2\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "      load_balancer.#:                             \"1\"\r\n"
+    ],
+    [
+      2.4e-05,
+      "      load_balancer.~944677119.container_name:     \"blog\"\r\n"
+    ],
+    [
+      0.000111,
+      "      load_balancer.~944677119.container_port:     \"80\"\r\n"
+    ],
+    [
+      8e-05,
+      "      load_balancer.~944677119.elb_name:           \"\"\r\n"
+    ],
+    [
+      0.000104,
+      "      load_balancer.~944677119.target_group_arn:   \"${aws_alb_target_group.main.arn}\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "      name:                                        \"blog-040-ecs\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "      network_configuration.#:                     \"1\"\r\n"
+    ],
+    [
+      5.1e-05,
+      "      network_configuration.0.security_groups.#:   <computed>\r\n"
+    ],
+    [
+      6.6e-05,
+      "      network_configuration.0.subnets.#:           <computed>\r\n"
+    ],
+    [
+      0.000129,
+      "      task_definition:                             \"${aws_ecs_task_definition.main.arn}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      7.1e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-ecs.aws_ecs_task_definition.main\r\n"
+    ],
+    [
+      8.7e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.3e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      7.4e-05,
+      "      container_definitions:                       \"${var.task_definition}\"\r\n"
+    ],
+    [
+      9.5e-05,
+      "      cpu:                                         \"256\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "      execution_role_arn:                          \"${var.awsvpc_task_execution_role_arn}\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "      family:                                      \"blog-blog-040-ecs\"\r\n"
+    ],
+    [
+      0.0001,
+      "      memory:                                      \"512\"\r\n"
+    ],
+    [
+      4.8e-05,
+      "      network_mode:                                \"awsvpc\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "      requires_compatibilities.#:                  \"1\"\r\n"
+    ],
+    [
+      6.1e-05,
+      "      requires_compatibilities.2737437151:         \"EC2\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "      revision:                                    <computed>\r\n\u001b[0m\r\n"
+    ],
+    [
+      7.8e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-ecs.aws_security_group.alb_sg\r\n"
+    ],
+    [
+      0.000171,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      0.000129,
+      "      description:                                 \"controls access to the application LB\"\r\n"
+    ],
+    [
+      0.0001,
+      "      egress.#:                                    \"1\"\r\n"
+    ],
+    [
+      9.4e-05,
+      "      egress.482069346.cidr_blocks.#:              \"1\"\r\n"
+    ],
+    [
+      9.6e-05,
+      "      egress.482069346.cidr_blocks.0:              \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      9.7e-05,
+      "      egress.482069346.description:                \"\"\r\n"
+    ],
+    [
+      8.9e-05,
+      "      egress.482069346.from_port:                  \"0\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "      egress.482069346.ipv6_cidr_blocks.#:         \"0\"\r\n"
+    ],
+    [
+      5.6e-05,
+      "      egress.482069346.prefix_list_ids.#:          \"0\"\r\n"
+    ],
+    [
+      7.3e-05,
+      "      egress.482069346.protocol:                   \"-1\"\r\n"
+    ],
+    [
+      0.00012,
+      "      egress.482069346.security_groups.#:          \"0\"\r\n"
+    ],
+    [
+      5.4e-05,
+      "      egress.482069346.self:                       \"false\"\r\n"
+    ],
+    [
+      9.7e-05,
+      "      egress.482069346.to_port:                    \"0\"\r\n"
+    ],
+    [
+      9.8e-05,
+      "      ingress.#:                                   \"1\"\r\n"
+    ],
+    [
+      3.9e-05,
+      "      ingress.2214680975.cidr_blocks.#:            \"1\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "      ingress.2214680975.cidr_blocks.0:            \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      4.8e-05,
+      "      ingress.2214680975.description:              \"\"\r\n"
+    ],
+    [
+      7e-05,
+      "      ingress.2214680975.from_port:                \"80\"\r\n"
+    ],
+    [
+      0.000105,
+      "      ingress.2214680975.ipv6_cidr_blocks.#:       \"0\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "      ingress.2214680975.protocol:                 \"tcp\"\r\n"
+    ],
+    [
+      8.3e-05,
+      "      ingress.2214680975.security_groups.#:        \"0\"\r\n"
+    ],
+    [
+      0.000122,
+      "      ingress.2214680975.self:                     \"false\"\r\n"
+    ],
+    [
+      5.5e-05,
+      "      ingress.2214680975.to_port:                  \"80\"\r\n"
+    ],
+    [
+      0.000126,
+      "      name:                                        \"blog-blog-040-ecs-alb-sg\"\r\n"
+    ],
+    [
+      8.9e-05,
+      "      owner_id:                                    <computed>\r\n"
+    ],
+    [
+      8.2e-05,
+      "      revoke_rules_on_delete:                      \"false\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "      tags.%:                                      \"3\"\r\n"
+    ],
+    [
+      9.9e-05,
+      "      tags.Application:                            \"blog-040-ecs\"\r\n"
+    ],
+    [
+      7e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      0.000109,
+      "      tags.Name:                                   \"blog-blog-040-ecs-alb-sg\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "      vpc_id:                                      \"${var.vpc_id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      8.9e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-fg.aws_alb.main\r\n"
+    ],
+    [
+      0.000135,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      6.8e-05,
+      "      access_logs.#:                               <computed>\r\n"
+    ],
+    [
+      9.1e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      7.8e-05,
+      "      arn_suffix:                                  <computed>\r\n"
+    ],
+    [
+      7.9e-05,
+      "      dns_name:                                    <computed>\r\n"
+    ],
+    [
+      8e-05,
+      "      enable_deletion_protection:                  \"false\"\r\n"
+    ],
+    [
+      0.000121,
+      "      idle_timeout:                                \"60\"\r\n"
+    ],
+    [
+      0.000107,
+      "      internal:                                    \"false\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "      ip_address_type:                             <computed>\r\n"
+    ],
+    [
+      0.00263,
+      "      load_balancer_type:                          \"application\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "      name:                                        <computed>\r\n      security_groups.#:                           <computed>\r\n      subnets.#:                                   <computed>\r\n      tags.%:                                      \"3\"\r\n      tags.Application:                            \"blog-040-fg\"\r\n      tags.Environment:                            \"blog\"\r\n      tags.Name:                                   \"blog-blog-040-fg\"\r\n      vpc_id:                                      <computed>\r\n      zone_id:                                     <computed>\r\n\u001b[0m\r\n\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-fg.aws_alb_listener.main\r\n\u001b[0m      id:                                          <computed>\r\n      arn:                                         <computed>\r\n      default_action.#:                            \"1\"\r\n      default_action.0.target_group_arn:           \"${aws_alb_target_group.main.id}\"\r\n      default_action.0.type:                       \"forward\"\r\n      load_balancer_arn:                           \""
+    ],
+    [
+      4e-05,
+      "${aws_alb.main.id}\"\r\n      port:                                        \"80\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "      protocol:                                    \"HTTP\"\r\n"
+    ],
+    [
+      9.9e-05,
+      "      ssl_policy:                                  <computed>\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000125,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-fg.aws_alb_target_group.main\r\n"
+    ],
+    [
+      8.9e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.6e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      0.000105,
+      "      arn_suffix:                                  <computed>\r\n"
+    ],
+    [
+      8.3e-05,
+      "      deregistration_delay:                        \"300\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "      health_check.#:                              \"1\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "      health_check.0.healthy_threshold:            \"3\"\r\n"
+    ],
+    [
+      0.0001,
+      "      health_check.0.interval:                     \"30\"\r\n"
+    ],
+    [
+      0.0001,
+      "      health_check.0.matcher:                      <computed>\r\n"
+    ],
+    [
+      6.4e-05,
+      "      health_check.0.path:                         <computed>\r\n"
+    ],
+    [
+      0.000102,
+      "      health_check.0.port:                         \"traffic-port\"\r\n"
+    ],
+    [
+      5.1e-05,
+      "      health_check.0.protocol:                     \"HTTP\"\r\n"
+    ],
+    [
+      0.000112,
+      "      health_check.0.timeout:                      <computed>\r\n"
+    ],
+    [
+      8.6e-05,
+      "      health_check.0.unhealthy_threshold:          \"3\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "      name:                                        <computed>\r\n"
+    ],
+    [
+      8.2e-05,
+      "      port:                                        \"80\"\r\n"
+    ],
+    [
+      6.6e-05,
+      "      protocol:                                    \"HTTP\"\r\n"
+    ],
+    [
+      0.000107,
+      "      stickiness.#:                                <computed>\r\n"
+    ],
+    [
+      9.7e-05,
+      "      tags.%:                                      \"3\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "      tags.Application:                            \"blog-040-fg\"\r\n"
+    ],
+    [
+      8.9e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      0.000109,
+      "      tags.Name:                                   \"blog-blog-040-fg\"\r\n"
+    ],
+    [
+      0.000135,
+      "      target_type:                                 \"ip\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "      vpc_id:                                      \"${var.vpc_id}\"\r\n"
+    ],
+    [
+      3e-05,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000131,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-fg.aws_ecs_service.awsvpc_alb\r\n"
+    ],
+    [
+      0.000105,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      9.6e-05,
+      "      cluster:                                     \"${var.ecs_cluster_id}\"\r\n"
+    ],
+    [
+      0.000107,
+      "      deployment_maximum_percent:                  \"200\"\r\n"
+    ],
+    [
+      5.6e-05,
+      "      deployment_minimum_healthy_percent:          \"100\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "      desired_count:                               \"1\"\r\n"
+    ],
+    [
+      5.2e-05,
+      "      iam_role:                                    <computed>\r\n"
+    ],
+    [
+      8.1e-05,
+      "      launch_type:                                 \"FARGATE\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "      load_balancer.#:                             \"1\"\r\n"
+    ],
+    [
+      5.7e-05,
+      "      load_balancer.~944677119.container_name:     \"blog\"\r\n"
+    ],
+    [
+      9.6e-05,
+      "      load_balancer.~944677119.container_port:     \"80\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "      load_balancer.~944677119.elb_name:           \"\"\r\n"
+    ],
+    [
+      7e-05,
+      "      load_balancer.~944677119.target_group_arn:   \"${aws_alb_target_group.main.arn}\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "      name:                                        \"blog-040-fg\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "      network_configuration.#:                     \"1\"\r\n"
+    ],
+    [
+      7.3e-05,
+      "      network_configuration.0.security_groups.#:   <computed>\r\n"
+    ],
+    [
+      8.5e-05,
+      "      network_configuration.0.subnets.#:           <computed>\r\n"
+    ],
+    [
+      9.3e-05,
+      "      task_definition:                             \"${aws_ecs_task_definition.main.arn}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      7.6e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-fg.aws_ecs_task_definition.main\r\n"
+    ],
+    [
+      8.8e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      8.4e-05,
+      "      container_definitions:                       \"${var.task_definition}\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "      cpu:                                         \"256\"\r\n"
+    ],
+    [
+      0.000102,
+      "      execution_role_arn:                          \"${var.awsvpc_task_execution_role_arn}\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "      family:                                      \"blog-blog-040-fg\"\r\n"
+    ],
+    [
+      8e-05,
+      "      memory:                                      \"512\"\r\n"
+    ],
+    [
+      2.2e-05,
+      "      network_mode:                                \"awsvpc\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "      requires_compatibilities.#:                  \"1\"\r\n"
+    ],
+    [
+      4.9e-05,
+      "      requires_compatibilities.3072437307:         \"FARGATE\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "      revision:                                    <computed>\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000218,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.blog-fg.aws_security_group.alb_sg\r\n"
+    ],
+    [
+      8.5e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      0.000128,
+      "      description:                                 \"controls access to the application LB\"\r\n"
+    ],
+    [
+      7.8e-05,
+      "      egress.#:                                    \"1\"\r\n"
+    ],
+    [
+      5.8e-05,
+      "      egress.482069346.cidr_blocks.#:              \"1\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "      egress.482069346.cidr_blocks.0:              \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "      egress.482069346.description:                \"\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "      egress.482069346.from_port:                  \"0\"\r\n"
+    ],
+    [
+      0.000101,
+      "      egress.482069346.ipv6_cidr_blocks.#:         \"0\"\r\n"
+    ],
+    [
+      0.00012,
+      "      egress.482069346.prefix_list_ids.#:          \"0\"\r\n"
+    ],
+    [
+      7.3e-05,
+      "      egress.482069346.protocol:                   \"-1\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "      egress.482069346.security_groups.#:          \"0\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "      egress.482069346.self:                       \"false\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "      egress.482069346.to_port:                    \"0\"\r\n"
+    ],
+    [
+      5.8e-05,
+      "      ingress.#:                                   \"1\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "      ingress.2214680975.cidr_blocks.#:            \"1\"\r\n"
+    ],
+    [
+      0.000127,
+      "      ingress.2214680975.cidr_blocks.0:            \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "      ingress.2214680975.description:              \"\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "      ingress.2214680975.from_port:                \"80\"\r\n"
+    ],
+    [
+      7e-05,
+      "      ingress.2214680975.ipv6_cidr_blocks.#:       \"0\"\r\n"
+    ],
+    [
+      7.8e-05,
+      "      ingress.2214680975.protocol:                 \"tcp\"\r\n"
+    ],
+    [
+      8.3e-05,
+      "      ingress.2214680975.security_groups.#:        \"0\"\r\n"
+    ],
+    [
+      4.5e-05,
+      "      ingress.2214680975.self:                     \"false\"\r\n"
+    ],
+    [
+      0.000102,
+      "      ingress.2214680975.to_port:                  \"80\"\r\n"
+    ],
+    [
+      9.3e-05,
+      "      name:                                        \"blog-blog-040-fg-alb-sg\"\r\n"
+    ],
+    [
+      8.9e-05,
+      "      owner_id:                                    <computed>\r\n"
+    ],
+    [
+      6.2e-05,
+      "      revoke_rules_on_delete:                      \"false\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "      tags.%:                                      \"3\"\r\n"
+    ],
+    [
+      8e-05,
+      "      tags.Application:                            \"blog-040-fg\"\r\n"
+    ],
+    [
+      0.000106,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      0.000122,
+      "      tags.Name:                                   \"blog-blog-040-fg-alb-sg\"\r\n"
+    ],
+    [
+      0.000112,
+      "      vpc_id:                                      \"${var.vpc_id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000152,
+      "\u001b[0m\u001b[36m \u001b[36m<=\u001b[0m \u001b[36mmodule.ecs_instances.data.template_file.cloud_config\r\n"
+    ],
+    [
+      7.9e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.4e-05,
+      "      rendered:                                    <computed>\r\n"
+    ],
+    [
+      0.002385,
+      "      template:                                    \"#cloud-config\\ncoreos:\\n  units:\\n   - name: update-engine.service\\n     command: stop\\n   - name: amazon-ecs-agent.service\\n     command: start\\n     runtime: true\\n     content: |\\n       [Unit]\\n       Description=AWS ECS Agent\\n       Documentation=https://docs.aws.amazon.com/AmazonECS/latest/developerguide/\\n       Requires=docker.socket\\n       After=docker.socket\\n\\n       [Service]\\n       Environment=ECS_CLUSTER=${ecs_cluster_name}\\n       Environment=ECS_LOGLEVEL=${ecs_log_level}\\n       Environment=ECS_VERSION=${ecs_agent_version}\\n       Restart=on-failure\\n       RestartSec=30\\n       RestartPreventExitStatus=5\\n       SyslogIdentifier=ecs-agent\\n       ExecStartPre=-/bin/mkdir -p /var/log/ecs /var/ecs-data /etc/ecs\\n       ExecStartPre=-/usr/bin/docker kill ecs-agent\\n       ExecStartPre=-/usr/bin/docker rm ecs-agent\\n       ExecStartPre=/usr/bin/docker pull amazon/amazon-ecs-agent:$${ECS_VERSION}\\n       ExecStart=/usr/bin/docker run --name ec"
+    ],
+    [
+      2.7e-05,
+      "s-agent \\\\\\n                                     --volume=/var/run/docker.sock:/var/run/docker.sock \\\\\\n                                     --volume=/var/log/ecs:/log \\\\\\n                                     --volume=/var/ecs-data:/data \\\\\\n                                     --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro \\\\\\n                                     --volume=/run/docker/execdriver/native:/var/lib/docker/execdriver/native:ro \\\\\\n                                     --publish=127.0.0.1:51678:51678 \\\\\\n                                     --env=ECS_LOGFILE=/log/ecs-agent.log \\\\\\n                                     --env=ECS_LOGLEVEL=$${ECS_LOGLEVEL} \\\\\\n                                     --env=ECS_DATADIR=/data \\\\\\n                                     --env=ECS_CLUSTER=$${ECS_CLUSTER} \\\\\\n                                     --env=ECS_AVAILABLE_LOGGING_DRIVERS='[\\\"awslogs\\\"]' \\\\\\n                                     --log-driver=awslogs \\\\\\n                                     --log-opt awslogs-regi"
+    ],
+    [
+      6e-05,
+      "on=${aws_region} \\\\\\n                                     --log-opt awslogs-group=${ecs_log_group_name} \\\\\\n                                     amazon/amazon-ecs-agent:$${ECS_VERSION}\\n\"\r\n      vars.%:                                      \"5\"\r\n"
+    ],
+    [
+      0.000107,
+      "      vars.aws_region:                             \"us-east-1\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "      vars.ecs_agent_version:                      \"latest\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "      vars.ecs_cluster_name:                       \"blog-ecs-cluster\"\r\n"
+    ],
+    [
+      8.9e-05,
+      "      vars.ecs_log_group_name:                     \"blog-ecs-group/ecs-agent\"\r\n"
+    ],
+    [
+      9.8e-05,
+      "      vars.ecs_log_level:                          \"info\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      8.6e-05,
+      "\u001b[0m\u001b[36m \u001b[36m<=\u001b[0m \u001b[36mmodule.ecs_instances.data.template_file.ecs_linux\r\n"
+    ],
+    [
+      0.000101,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      4.1e-05,
+      "      rendered:                                    <computed>\r\n"
+    ],
+    [
+      0.003686,
+      "      template:                                    \"Content-Type: multipart/mixed; boundary=\\\"==BOUNDARY==\\\"\\nMIME-Version: 1.0\\n\\n--==BOUNDARY==\\nContent-Type: text/x-shellscript; charset=\\\"us-ascii\\\"\\n#!/bin/bash -ex\\nexec > >(tee /var/log/user-data.log|logger -t user-data -s 2>/dev/console) 2>&1\\n\\necho 'installing additional software'\\n# installing in a loop to ensure the cli is intalled.\\nfor i in {1..5}\\ndo\\n  yum install -y aws-cli awslogs jq && break || sleep 60\\ndone\\n\\necho 'setting info for ECS cluster configuration'\\necho ECS_CLUSTER=\\\"${ecs_cluster_name}\\\" >> /etc/ecs/ecs.config\\necho ECS_AVAILABLE_LOGGING_DRIVERS=[\\\\\\\"json-file\\\\\\\",\\\\\\\"syslog\\\\\\\",\\\\\\\"awslogs\\\\\\\"] >> /etc/ecs/ecs.config\\n\\n# Inject the CloudWatch Logs configuration file contents\\ncat > /etc/awslogs/awslogs.conf <<- EOF\\n[general]\\nstate_file = /var/lib/awslogs/agent-state\\n\\n[/var/log/ecs/ecs-agent.log]\\nfile = /var/log/ecs/ecs-agent.log.*\\nlog_group_name = ${ecs_log_group_name}\\nlog_stream_name = {cluster}/{container_instance_id"
+    ],
+    [
+      3.3e-05,
+      "}\\ndatetime_format = %Y-%m-%dT%H:%M:%SZ\\n\\n\\nEOF\\n\\n--==BOUNDARY==\\nContent-Type: text/x-shellscript; charset=\\\"us-ascii\\\"\\n#!/bin/bash\\n# Set the region to send CloudWatch Logs data to (the region where the container instance is located)\\nregion=$(curl -s 169.254.169.254/latest/dynamic/instance-identity/document | jq -r .region)\\nsed -i -e \\\"s/region = us-east-1/region = $region/g\\\" /etc/awslogs/awscli.conf\\n\\n--==BOUNDARY==\\nContent-Type: text/upstart-job; charset=\\\"us-ascii\\\"\\n\\n#upstart-job\\ndescription \\\"Configure and start CloudWatch Logs agent on Amazon ECS container instance\\\"\\nauthor \\\"Amazon Web Services\\\"\\nstart on started ecs\\n\\nscript\\n\\texec 2>>/var/log/ecs/cloudwatch-logs-start.log\\n\\tset -x\\n\\n\\tuntil curl -s http://localhost:51678/v1/metadata\\n\\tdo\\n\\t\\tsleep 1\\n\\tdone\\n\\n\\t# Grab the cluster and container instance ARN from instance metadata\\n\\tcluster=$(curl -s http://localhost:51678/v1/metadata | jq -r '. | .Cluster')\\n\\tcontainer_instance_id=$(curl -s http://localhost:51678/v1/metadata | j"
+    ],
+    [
+      7.4e-05,
+      "q -r '. | .ContainerInstanceArn' | awk -F/ '{print $2}' )\\n\\n\\t# Replace the cluster name and container instance ID placeholders with the actual values\\n\\tsed -i -e \\\"s/{cluster}/$cluster/g\\\" /etc/awslogs/awslogs.conf\\n\\tsed -i -e \\\"s/{container_instance_id}/$container_instance_id/g\\\" /etc/awslogs/awslogs.conf\\n\\n\\tservice awslogs start\\n\\tchkconfig awslogs on\\nend script\\n--==BOUNDARY==--\\n\"\r\n      vars.%:                                      \"2\"\r\n"
+    ],
+    [
+      5.4e-05,
+      "      vars.ecs_cluster_name:                       \"blog-ecs-cluster\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "      vars.ecs_log_group_name:                     \"blog-ecs-group/ecs-agent\"\r\n"
+    ],
+    [
+      2.6e-05,
+      "\u001b[0m\r\n"
+    ],
+    [
+      7.9e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.ecs_instances.aws_autoscaling_group.ecs_instance\r\n"
+    ],
+    [
+      6.8e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      6.9e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      6.3e-05,
+      "      availability_zones.#:                        <computed>\r\n"
+    ],
+    [
+      7.6e-05,
+      "      default_cooldown:                            <computed>\r\n"
+    ],
+    [
+      5.2e-05,
+      "      desired_capacity:                            \"1\"\r\n"
+    ],
+    [
+      3.5e-05,
+      "      force_delete:                                \"false\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "      health_check_grace_period:                   \"300\"\r\n"
+    ],
+    [
+      5.7e-05,
+      "      health_check_type:                           <computed>\r\n"
+    ],
+    [
+      7.6e-05,
+      "      launch_configuration:                        \"${aws_launch_configuration.ecs_instance.name}\"\r\n"
+    ],
+    [
+      7.3e-05,
+      "      load_balancers.#:                            <computed>\r\n"
+    ],
+    [
+      7.3e-05,
+      "      max_size:                                    \"2\"\r\n"
+    ],
+    [
+      2.2e-05,
+      "      metrics_granularity:                         \"1Minute\"\r\n"
+    ],
+    [
+      6.6e-05,
+      "      min_size:                                    \"1\"\r\n"
+    ],
+    [
+      4.2e-05,
+      "      name:                                        \"blog-as-group\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "      protect_from_scale_in:                       \"false\"\r\n"
+    ],
+    [
+      6.1e-05,
+      "      tag.#:                                       \"2\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "      tag.2122805005.key:                          \"Environment\"\r\n"
+    ],
+    [
+      4.8e-05,
+      "      tag.2122805005.propagate_at_launch:          \"true\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "      tag.2122805005.value:                        \"blog\"\r\n"
+    ],
+    [
+      6.3e-05,
+      "      tag.2676907645.key:                          \"Name\"\r\n"
+    ],
+    [
+      6.1e-05,
+      "      tag.2676907645.propagate_at_launch:          \"true\"\r\n"
+    ],
+    [
+      6.1e-05,
+      "      tag.2676907645.value:                        \"blog-ecs-cluster\"\r\n"
+    ],
+    [
+      3.6e-05,
+      "      target_group_arns.#:                         <computed>\r\n"
+    ],
+    [
+      8.3e-05,
+      "      vpc_zone_identifier.#:                       <computed>\r\n"
+    ],
+    [
+      7.2e-05,
+      "      wait_for_capacity_timeout:                   \"10m\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      7.4e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.ecs_instances.aws_cloudwatch_log_group.ecs\r\n"
+    ],
+    [
+      5.6e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      7.8e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      9.6e-05,
+      "      name:                                        \"blog-ecs-group/ecs-agent\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "      retention_in_days:                           \"0\"\r\n"
+    ],
+    [
+      5.1e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      9.6e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "      tags.Name:                                   \"blog-ecs-cluster-sg\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      9.2e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.ecs_instances.aws_iam_instance_profile.ecs_instance\r\n"
+    ],
+    [
+      8.3e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      5.9e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      6.5e-05,
+      "      create_date:                                 <computed>\r\n"
+    ],
+    [
+      7.4e-05,
+      "      name:                                        \"blog-ecs-instance-profile\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "      path:                                        \"/\"\r\n"
+    ],
+    [
+      6e-05,
+      "      role:                                        \"blog-ecs-instance-role\"\r\n"
+    ],
+    [
+      5.5e-05,
+      "      roles.#:                                     <computed>\r\n"
+    ],
+    [
+      9.4e-05,
+      "      unique_id:                                   <computed>\r\n\u001b[0m\r\n"
+    ],
+    [
+      8.8e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.ecs_instances.aws_iam_role.ecs_instance\r\n"
+    ],
+    [
+      0.0001,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.7e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      0.000523,
+      "      assume_role_policy:                          \"{\\n  \\\"Version\\\": \\\"2012-10-17\\\",\\n  \\\"Statement\\\": [\\n    {\\n      \\\"Sid\\\": \\\"\\\",\\n      \\\"Effect\\\": \\\"Allow\\\",\\n      \\\"Principal\\\": {\\n        \\\"Service\\\": \\\"ec2.amazonaws.com\\\"\\n      },\\n      \\\"Action\\\": \\\"sts:AssumeRole\\\"\\n    }\\n  ]\\n}\\n\"\r\n      create_date:                                 <computed>\r\n      force_detach_policies:                       \"false\"\r\n"
+    ],
+    [
+      6.3e-05,
+      "      name:                                        \"blog-ecs-instance-role\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "      path:                                        \"/\"\r\n"
+    ],
+    [
+      7e-05,
+      "      unique_id:                                   <computed>\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000321,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.ecs_instances.aws_iam_role.ecs_service_role\r\n"
+    ],
+    [
+      7.8e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      7e-05,
+      "      arn:                                         <computed>\r\n"
+    ],
+    [
+      0.000332,
+      "      assume_role_policy:                          \"{\\n  \\\"Version\\\": \\\"2012-10-17\\\",\\n  \\\"Statement\\\": [\\n    {\\n      \\\"Sid\\\": \\\"\\\",\\n      \\\"Effect\\\": \\\"Allow\\\",\\n      \\\"Action\\\": \\\"sts:AssumeRole\\\",\\n      \\\"Principal\\\": {\\n        \\\"Service\\\": \\\"ecs.amazonaws.com\\\"\\n      }\\n    }\\n  ]\\n}\"\r\n"
+    ],
+    [
+      0.000103,
+      "      create_date:                                 <computed>\r\n"
+    ],
+    [
+      0.000114,
+      "      force_detach_policies:                       \"false\"\r\n"
+    ],
+    [
+      0.000136,
+      "      name:                                        \"blog-ecs-service-role\"\r\n"
+    ],
+    [
+      6.6e-05,
+      "      path:                                        \"/\"\r\n"
+    ],
+    [
+      0.000104,
+      "      unique_id:                                   <computed>\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000117,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.ecs_instances.aws_iam_role_policy.ecs_instance\r\n"
+    ],
+    [
+      9.2e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.2e-05,
+      "      name:                                        \"blog-ecs-instance-role\"\r\n"
+    ],
+    [
+      0.000971,
+      "      policy:                                      \"{\\n  \\\"Version\\\": \\\"2012-10-17\\\",\\n  \\\"Statement\\\": [\\n    {\\n      \\\"Sid\\\": \\\"ecsInstanceRole\\\",\\n      \\\"Effect\\\": \\\"Allow\\\",\\n      \\\"Action\\\": [\\n        \\\"ecs:CreateCluster\\\",\\n        \\\"ecs:DeregisterContainerInstance\\\",\\n        \\\"ecs:DiscoverPollEndpoint\\\",\\n        \\\"ecs:Poll\\\",\\n        \\\"ecs:RegisterContainerInstance\\\",\\n        \\\"ecs:StartTelemetrySession\\\",\\n        \\\"ecs:Submit*\\\",\\n        \\\"ecr:GetAuthorizationToken\\\",\\n        \\\"ecr:BatchCheckLayerAvailability\\\",\\n        \\\"ecr:GetDownloadUrlForLayer\\\",\\n        \\\"ecr:BatchGetImage\\\"\\n      ],\\n      \\\"Resource\\\": [\\n        \\\"*\\\"\\n      ]\\n    },\\n    {\\n      \\\"Sid\\\": \\\"allowLoggingToCloudWatch\\\",\\n      \\\"Effect\\\": \\\"Allow\\\",\\n      \\\"Action\\\": [\\n        \\\"logs:CreateLogGroup\\\",\\n        \\\"logs:CreateLogStream\\\",\\n        \\\"logs:PutLogEvents\\\",\\n        \\\"logs:DescribeLogStreams\\\"\\n      ],\\n      \\\"Resource\\\": [\\n        \\\"arn:aws:logs:*:*:*\\\"\\n      ]\\n    }\\n  ]\\n}\\n\"\r\n"
+    ],
+    [
+      9.6e-05,
+      "      role:                                        \"blog-ecs-instance-role\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000118,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.ecs_instances.aws_iam_role_policy.service_role_policy\r\n"
+    ],
+    [
+      5.6e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8e-05,
+      "      name:                                        \"blog-ecs-service-role-policy\"\r\n"
+    ],
+    [
+      0.000966,
+      "      policy:                                      \"{\\n    \\\"Version\\\": \\\"2012-10-17\\\",\\n    \\\"Statement\\\": [\\n        {\\n            \\\"Effect\\\": \\\"Allow\\\",\\n            \\\"Action\\\": [\\n                \\\"ec2:AttachNetworkInterface\\\",\\n                \\\"ec2:CreateNetworkInterface\\\",\\n                \\\"ec2:CreateNetworkInterfacePermission\\\",\\n                \\\"ec2:DeleteNetworkInterface\\\",\\n                \\\"ec2:DeleteNetworkInterfacePermission\\\",\\n                \\\"ec2:Describe*\\\",\\n                \\\"ec2:DetachNetworkInterface\\\",\\n                \\\"elasticloadbalancing:DeregisterInstancesFromLoadBalancer\\\",\\n                \\\"elasticloadbalancing:DeregisterTargets\\\",\\n                \\\"elasticloadbalancing:Describe*\\\",\\n                \\\"elasticloadbalancing:RegisterInstancesWithLoadBalancer\\\",\\n                \\\"elasticloadbalancing:RegisterTargets\\\"\\n            ],\\n            \\\"Resource\\\": \\\"*\\\"\\n        }\\n    ]\\n}\\n\"\r\n"
+    ],
+    [
+      0.000112,
+      "      role:                                        \"blog-ecs-service-role\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000123,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.ecs_instances.aws_launch_configuration.ecs_instance\r\n"
+    ],
+    [
+      4.7e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      7.8e-05,
+      "      associate_public_ip_address:                 \"false\"\r\n"
+    ],
+    [
+      0.000105,
+      "      ebs_block_device.#:                          <computed>\r\n"
+    ],
+    [
+      0.000126,
+      "      ebs_optimized:                               <computed>\r\n"
+    ],
+    [
+      8.9e-05,
+      "      enable_monitoring:                           \"true\"\r\n"
+    ],
+    [
+      0.000141,
+      "      iam_instance_profile:                        \"blog-ecs-instance-profile\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "      image_id:                                    \"ami-28456852\"\r\n"
+    ],
+    [
+      9.9e-05,
+      "      instance_type:                               \"t2.small\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "      key_name:                                    \"test\"\r\n"
+    ],
+    [
+      0.00016,
+      "      name:                                        <computed>\r\n"
+    ],
+    [
+      0.000121,
+      "      root_block_device.#:                         <computed>\r\n"
+    ],
+    [
+      9.4e-05,
+      "      security_groups.#:                           <computed>\r\n"
+    ],
+    [
+      0.000174,
+      "      user_data:                                   \"80265362e5edc6ab12bb430039651780c96aff4c\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.00014,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.ecs_instances.aws_security_group.instance_sg\r\n"
+    ],
+    [
+      0.000154,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      9.2e-05,
+      "      description:                                 \"controls access to ecs-cluster instances\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "      egress.#:                                    \"1\"\r\n"
+    ],
+    [
+      9e-05,
+      "      egress.1403647648.cidr_blocks.#:             \"1\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "      egress.1403647648.cidr_blocks.0:             \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "      egress.1403647648.description:               \"\"\r\n"
+    ],
+    [
+      8.3e-05,
+      "      egress.1403647648.from_port:                 \"0\"\r\n"
+    ],
+    [
+      7.9e-05,
+      "      egress.1403647648.ipv6_cidr_blocks.#:        \"0\"\r\n"
+    ],
+    [
+      6e-05,
+      "      egress.1403647648.prefix_list_ids.#:         \"0\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "      egress.1403647648.protocol:                  \"tcp\"\r\n"
+    ],
+    [
+      9e-05,
+      "      egress.1403647648.security_groups.#:         \"0\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "      egress.1403647648.self:                      \"false\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "      egress.1403647648.to_port:                   \"65535\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "      ingress.#:                                   \"1\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "      ingress.3581498979.cidr_blocks.#:            \"1\"\r\n"
+    ],
+    [
+      0.000103,
+      "      ingress.3581498979.cidr_blocks.0:            \"10.0.0.0/16\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "      ingress.3581498979.description:              \"\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "      ingress.3581498979.from_port:                \"0\"\r\n"
+    ],
+    [
+      5.6e-05,
+      "      ingress.3581498979.ipv6_cidr_blocks.#:       \"0\"\r\n"
+    ],
+    [
+      6.6e-05,
+      "      ingress.3581498979.protocol:                 \"tcp\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "      ingress.3581498979.security_groups.#:        \"0\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "      ingress.3581498979.self:                     \"false\"\r\n"
+    ],
+    [
+      5.1e-05,
+      "      ingress.3581498979.to_port:                  \"65535\"\r\n"
+    ],
+    [
+      7e-05,
+      "      name:                                        \"blog-ecs-cluster-sg\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "      owner_id:                                    <computed>\r\n"
+    ],
+    [
+      6.3e-05,
+      "      revoke_rules_on_delete:                      \"false\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "      tags.Name:                                   \"blog-ecs-cluster-sg\"\r\n"
+    ],
+    [
+      7.9e-05,
+      "      vpc_id:                                      \"${var.vpc_id}\"\r\n"
+    ],
+    [
+      1.6e-05,
+      "\u001b[0m\r\n"
+    ],
+    [
+      7.2e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_eip.nat\r\n"
+    ],
+    [
+      9.6e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.8e-05,
+      "      allocation_id:                               <computed>\r\n"
+    ],
+    [
+      7.7e-05,
+      "      association_id:                              <computed>\r\n"
+    ],
+    [
+      6.9e-05,
+      "      domain:                                      <computed>\r\n"
+    ],
+    [
+      7.2e-05,
+      "      instance:                                    <computed>\r\n"
+    ],
+    [
+      6.8e-05,
+      "      network_interface:                           <computed>\r\n"
+    ],
+    [
+      8.4e-05,
+      "      private_ip:                                  <computed>\r\n"
+    ],
+    [
+      0.000127,
+      "      public_ip:                                   <computed>\r\n"
+    ],
+    [
+      9.8e-05,
+      "      vpc:                                         \"true\"\r\n"
+    ],
+    [
+      1.7e-05,
+      "\u001b[0m\r\n"
+    ],
+    [
+      9.5e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_internet_gateway.internet_gateway\r\n"
+    ],
+    [
+      0.000136,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      9.2e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      9.4e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      0.000136,
+      "      tags.Name:                                   \"blog-internet-gateway\"\r\n"
+    ],
+    [
+      9e-05,
+      "      vpc_id:                                      \"${aws_vpc.vpc.id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      7.8e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_nat_gateway.nat\r\n"
+    ],
+    [
+      0.000109,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      0.000132,
+      "      allocation_id:                               \"${aws_eip.nat.id}\"\r\n"
+    ],
+    [
+      0.000103,
+      "      network_interface_id:                        <computed>\r\n"
+    ],
+    [
+      0.000105,
+      "      private_ip:                                  <computed>\r\n"
+    ],
+    [
+      0.000117,
+      "      public_ip:                                   <computed>\r\n"
+    ],
+    [
+      0.000166,
+      "      subnet_id:                                   \"${aws_subnet.public_subnet.0.id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000128,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_route_table.private_routetable\r\n"
+    ],
+    [
+      9.9e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      7.8e-05,
+      "      propagating_vgws.#:                          <computed>\r\n"
+    ],
+    [
+      8.9e-05,
+      "      route.#:                                     \"1\"\r\n"
+    ],
+    [
+      0.000136,
+      "      route.~2242469439.cidr_block:                \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      4.9e-05,
+      "      route.~2242469439.egress_only_gateway_id:    \"\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "      route.~2242469439.gateway_id:                \"\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "      route.~2242469439.instance_id:               \"\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "      route.~2242469439.ipv6_cidr_block:           \"\"\r\n"
+    ],
+    [
+      0.000371,
+      "      route.~2242469439.nat_gateway_id:            \"${aws_nat_gateway.nat.id}\"\r\n"
+    ],
+    [
+      5.1e-05,
+      "      route.~2242469439.network_interface_id:      \"\"\r\n"
+    ],
+    [
+      6.6e-05,
+      "      route.~2242469439.vpc_peering_connection_id: \"\"\r\n"
+    ],
+    [
+      5.8e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      7.3e-05,
+      "      tags.Name:                                   \"blog-private-routetable\"\r\n"
+    ],
+    [
+      0.000101,
+      "      vpc_id:                                      \"${aws_vpc.vpc.id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      7.9e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_route_table.public_routetable\r\n"
+    ],
+    [
+      6.9e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      6.8e-05,
+      "      propagating_vgws.#:                          <computed>\r\n"
+    ],
+    [
+      6.6e-05,
+      "      route.#:                                     \"1\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "      route.~1734352590.cidr_block:                \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "      route.~1734352590.egress_only_gateway_id:    \"\"\r\n"
+    ],
+    [
+      0.0001,
+      "      route.~1734352590.gateway_id:                \"${aws_internet_gateway.internet_gateway.id}\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "      route.~1734352590.instance_id:               \"\"\r\n"
+    ],
+    [
+      7.8e-05,
+      "      route.~1734352590.ipv6_cidr_block:           \"\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "      route.~1734352590.nat_gateway_id:            \"\"\r\n"
+    ],
+    [
+      0.000105,
+      "      route.~1734352590.network_interface_id:      \"\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "      route.~1734352590.vpc_peering_connection_id: \"\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      0.000103,
+      "      tags.Name:                                   \"blog-public-routetable\"\r\n"
+    ],
+    [
+      7e-05,
+      "      vpc_id:                                      \"${aws_vpc.vpc.id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000103,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_route_table_association.private_routing_table[0]\r\n"
+    ],
+    [
+      8.1e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.4e-05,
+      "      route_table_id:                              \"${aws_route_table.private_routetable.id}\"\r\n"
+    ],
+    [
+      9.8e-05,
+      "      subnet_id:                                   \"${element(aws_subnet.private_subnet.*.id, count.index)}\"\r\n"
+    ],
+    [
+      1.6e-05,
+      "\u001b[0m\r\n"
+    ],
+    [
+      8e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_route_table_association.private_routing_table[1]\r\n"
+    ],
+    [
+      7.7e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      0.000132,
+      "      route_table_id:                              \"${aws_route_table.private_routetable.id}\"\r\n"
+    ],
+    [
+      0.000125,
+      "      subnet_id:                                   \"${element(aws_subnet.private_subnet.*.id, count.index)}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      9.2e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_route_table_association.private_routing_table[2]\r\n"
+    ],
+    [
+      6.2e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      9.5e-05,
+      "      route_table_id:                              \"${aws_route_table.private_routetable.id}\"\r\n"
+    ],
+    [
+      0.000102,
+      "      subnet_id:                                   \"${element(aws_subnet.private_subnet.*.id, count.index)}\"\r\n"
+    ],
+    [
+      1.5e-05,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.000112,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_route_table_association.public_routing_table[0]\r\n"
+    ],
+    [
+      6e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      0.000111,
+      "      route_table_id:                              \"${aws_route_table.public_routetable.id}\"\r\n"
+    ],
+    [
+      0.0001,
+      "      subnet_id:                                   \"${element(aws_subnet.public_subnet.*.id, count.index)}\"\r\n"
+    ],
+    [
+      1.7e-05,
+      "\u001b[0m\r\n"
+    ],
+    [
+      0.0001,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_route_table_association.public_routing_table[1]\r\n"
+    ],
+    [
+      8.1e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      8.1e-05,
+      "      route_table_id:                              \"${aws_route_table.public_routetable.id}\"\r\n"
+    ],
+    [
+      0.000112,
+      "      subnet_id:                                   \"${element(aws_subnet.public_subnet.*.id, count.index)}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000121,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_route_table_association.public_routing_table[2]\r\n"
+    ],
+    [
+      9.2e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      0.000102,
+      "      route_table_id:                              \"${aws_route_table.public_routetable.id}\"\r\n"
+    ],
+    [
+      0.000123,
+      "      subnet_id:                                   \"${element(aws_subnet.public_subnet.*.id, count.index)}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      8.4e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_subnet.private_subnet[0]\r\n"
+    ],
+    [
+      9.6e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      6.9e-05,
+      "      assign_ipv6_address_on_creation:             \"false\"\r\n"
+    ],
+    [
+      7e-05,
+      "      availability_zone:                           \"us-east-1a\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "      cidr_block:                                  \"10.0.3.0/24\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "      ipv6_cidr_block:                             <computed>\r\n"
+    ],
+    [
+      6.6e-05,
+      "      ipv6_cidr_block_association_id:              <computed>\r\n"
+    ],
+    [
+      7.3e-05,
+      "      map_public_ip_on_launch:                     \"false\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      4.8e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "      tags.Name:                                   \"blog-us-east-1a-private\"\r\n"
+    ],
+    [
+      0.000111,
+      "      vpc_id:                                      \"${aws_vpc.vpc.id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000112,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_subnet.private_subnet[1]\r\n"
+    ],
+    [
+      7.5e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      9.1e-05,
+      "      assign_ipv6_address_on_creation:             \"false\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "      availability_zone:                           \"us-east-1b\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "      cidr_block:                                  \"10.0.4.0/24\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "      ipv6_cidr_block:                             <computed>\r\n"
+    ],
+    [
+      5.5e-05,
+      "      ipv6_cidr_block_association_id:              <computed>\r\n"
+    ],
+    [
+      6.5e-05,
+      "      map_public_ip_on_launch:                     \"false\"\r\n"
+    ],
+    [
+      9.4e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      6.6e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      9.2e-05,
+      "      tags.Name:                                   \"blog-us-east-1b-private\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "      vpc_id:                                      \"${aws_vpc.vpc.id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      7.6e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_subnet.private_subnet[2]\r\n"
+    ],
+    [
+      7e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      7.8e-05,
+      "      assign_ipv6_address_on_creation:             \"false\"\r\n"
+    ],
+    [
+      7e-05,
+      "      availability_zone:                           \"us-east-1c\"\r\n"
+    ],
+    [
+      9.8e-05,
+      "      cidr_block:                                  \"10.0.5.0/24\"\r\n"
+    ],
+    [
+      9.3e-05,
+      "      ipv6_cidr_block:                             <computed>\r\n"
+    ],
+    [
+      6.1e-05,
+      "      ipv6_cidr_block_association_id:              <computed>\r\n"
+    ],
+    [
+      6.5e-05,
+      "      map_public_ip_on_launch:                     \"false\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      7.9e-05,
+      "      tags.Name:                                   \"blog-us-east-1c-private\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "      vpc_id:                                      \"${aws_vpc.vpc.id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      9.5e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_subnet.public_subnet[0]\r\n"
+    ],
+    [
+      8.2e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      5.9e-05,
+      "      assign_ipv6_address_on_creation:             \"false\"\r\n"
+    ],
+    [
+      7.8e-05,
+      "      availability_zone:                           \"us-east-1a\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "      cidr_block:                                  \"10.0.0.0/24\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "      ipv6_cidr_block:                             <computed>\r\n"
+    ],
+    [
+      7.2e-05,
+      "      ipv6_cidr_block_association_id:              <computed>\r\n"
+    ],
+    [
+      6.6e-05,
+      "      map_public_ip_on_launch:                     \"false\"\r\n"
+    ],
+    [
+      5.6e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      7e-05,
+      "      tags.Name:                                   \"blog-us-east-1a-public\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "      vpc_id:                                      \"${aws_vpc.vpc.id}\"\r\n"
+    ],
+    [
+      1.7e-05,
+      "\u001b[0m\r\n"
+    ],
+    [
+      6.8e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_subnet.public_subnet[1]\r\n"
+    ],
+    [
+      9e-05,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      6.4e-05,
+      "      assign_ipv6_address_on_creation:             \"false\"\r\n"
+    ],
+    [
+      4.6e-05,
+      "      availability_zone:                           \"us-east-1b\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "      cidr_block:                                  \"10.0.1.0/24\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "      ipv6_cidr_block:                             <computed>\r\n"
+    ],
+    [
+      4.8e-05,
+      "      ipv6_cidr_block_association_id:              <computed>\r\n"
+    ],
+    [
+      7.8e-05,
+      "      map_public_ip_on_launch:                     \"false\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      5e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      7.8e-05,
+      "      tags.Name:                                   \"blog-us-east-1b-public\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "      vpc_id:                                      \"${aws_vpc.vpc.id}\"\r\n"
+    ],
+    [
+      3.3e-05,
+      "\u001b[0m\r\n"
+    ],
+    [
+      8.5e-05,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_subnet.public_subnet[2]\r\n"
+    ],
+    [
+      0.000136,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      7.5e-05,
+      "      assign_ipv6_address_on_creation:             \"false\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "      availability_zone:                           \"us-east-1c\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "      cidr_block:                                  \"10.0.2.0/24\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "      ipv6_cidr_block:                             <computed>\r\n"
+    ],
+    [
+      7.7e-05,
+      "      ipv6_cidr_block_association_id:              <computed>\r\n"
+    ],
+    [
+      8.8e-05,
+      "      map_public_ip_on_launch:                     \"false\"\r\n"
+    ],
+    [
+      4.3e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "      tags.Name:                                   \"blog-us-east-1c-public\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "      vpc_id:                                      \"${aws_vpc.vpc.id}\"\r\n\u001b[0m\r\n"
+    ],
+    [
+      0.000105,
+      "\u001b[0m\u001b[32m  \u001b[32m+\u001b[0m \u001b[32mmodule.vpc.aws_vpc.vpc\r\n"
+    ],
+    [
+      0.000124,
+      "\u001b[0m      id:                                          <computed>\r\n"
+    ],
+    [
+      9.7e-05,
+      "      assign_generated_ipv6_cidr_block:            \"false\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "      cidr_block:                                  \"10.0.0.0/16\"\r\n"
+    ],
+    [
+      8.3e-05,
+      "      default_network_acl_id:                      <computed>\r\n"
+    ],
+    [
+      8.4e-05,
+      "      default_route_table_id:                      <computed>\r\n"
+    ],
+    [
+      0.000154,
+      "      default_security_group_id:                   <computed>\r\n"
+    ],
+    [
+      0.000109,
+      "      dhcp_options_id:                             <computed>\r\n"
+    ],
+    [
+      8.9e-05,
+      "      enable_classiclink:                          <computed>\r\n"
+    ],
+    [
+      7.4e-05,
+      "      enable_classiclink_dns_support:              <computed>\r\n"
+    ],
+    [
+      9.7e-05,
+      "      enable_dns_hostnames:                        \"true\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "      enable_dns_support:                          \"true\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "      instance_tenancy:                            <computed>\r\n"
+    ],
+    [
+      9.9e-05,
+      "      ipv6_association_id:                         <computed>\r\n"
+    ],
+    [
+      7e-05,
+      "      ipv6_cidr_block:                             <computed>\r\n"
+    ],
+    [
+      7.4e-05,
+      "      main_route_table_id:                         <computed>\r\n"
+    ],
+    [
+      6.4e-05,
+      "      tags.%:                                      \"2\"\r\n"
+    ],
+    [
+      0.00012,
+      "      tags.Environment:                            \"blog\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "      tags.Name:                                   \"blog-vpc\"\r\n"
+    ],
+    [
+      1.6e-05,
+      "\u001b[0m\r\n\u001b[0m\r\n"
+    ],
+    [
+      7.7e-05,
+      "\u001b[0m\u001b[1mPlan:\u001b[0m 45 to add, 0 to change, 0 to destroy.\u001b[0m\r\n\r\n"
+    ],
+    [
+      8.1e-05,
+      "\u001b[0m\u001b[1mDo you want to perform these actions?\u001b[0m\r\n"
+    ],
+    [
+      6.5e-05,
+      "  Terraform will perform the actions described above.\r\n"
+    ],
+    [
+      2.7e-05,
+      "  Only 'yes' will be accepted to approve.\r\n\r\n"
+    ],
+    [
+      0.100196,
+      "  \u001b[1mEnter a value:\u001b[0m \u001b[0m"
+    ],
+    [
+      3.385186,
+      "y"
+    ],
+    [
+      0.080183,
+      "e"
+    ],
+    [
+      0.191456,
+      "s"
+    ],
+    [
+      0.127867,
+      "\r\n"
+    ],
+    [
+      0.000124,
+      "\r\n"
+    ],
+    [
+      1.744321,
+      "\u001b[0m\u001b[1maws_cloudwatch_log_group.log_group: Creating...\u001b[0m\r\n"
+    ],
+    [
+      4.8e-05,
+      "  arn:               \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      2.5e-05,
+      "  name:              \"\" => \"blog\"\r\n"
+    ],
+    [
+      0.000263,
+      "  retention_in_days: \"\" => \"0\"\u001b[0m\r\n\u001b[0m\u001b[1maws_ecs_cluster.cluster: Creating...\u001b[0m\r\n  arn:  \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000573,
+      "  name: \"\" => \"blog-ecs-cluster\"\u001b[0m\r\n\u001b[0m\u001b[1maws_key_pair.key: Creating...\u001b[0m\r\n  fingerprint: \"\" => \"<computed>\"\r\n  key_name:    \"\" => \"test\"\r\n"
+    ],
+    [
+      0.000576,
+      "  public_key:  \"\" => \"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDRlxl9BAK4DKdS5CCEXuQci0BsB861ncbXTzKlRL03l2EUCGlfL42bDonIuT8luzp9cR/3aTajroILTfG6ApBDuNqB+/0A/0WOKCq7skj8ATVB9I7mRf3ynoB50kWsqm+N1ACh+codp4b8tU7BGlRSSKfhmzCyisGZdx4Uk4791ooilMGcoSIomlidt+46YDcsKAncIn814zAAG+1Uni6UCU3D7OYO3KtY6+U+Auvg3rRRVpeDElAu/B4D4qg1IyWZzgGH0I7r4mMdYuT/hw+rnxvDMJg2kB1lhgVOGb6CFm1GpjiZz5+RWgygEjlD+3o/IF+8jKFISlHpQQmUBsMV demo\"\u001b[0m\r\n\u001b[0m\u001b[1maws_iam_role.ecs_tasks_execution_role: Creating...\u001b[0m\r\n  arn:                   \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000998,
+      "  assume_role_policy:    \"\" => \"{\\n  \\\"Version\\\": \\\"2012-10-17\\\",\\n  \\\"Statement\\\": [\\n    {\\n      \\\"Sid\\\": \\\"\\\",\\n      \\\"Effect\\\": \\\"Allow\\\",\\n      \\\"Action\\\": \\\"sts:AssumeRole\\\",\\n      \\\"Principal\\\": {\\n        \\\"Service\\\": \\\"ecs-tasks.amazonaws.com\\\"\\n      }\\n    }\\n  ]\\n}\"\r\n  create_date:           \"\" => \"<computed>\"\r\n  force_detach_policies: \"\" => \"false\"\r\n  name:                  \"\" => \"blog-ecs-task-execution-role\"\r\n  path:                  \"\" => \"/\"\r\n  unique_id:             \"\" => \"<computed>\"\u001b[0m\r\n\u001b[0m\u001b[1mmodule.ecs_instances.aws_iam_role.ecs_service_role: Creating...\u001b[0m\r\n  arn:                   \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.00035,
+      "  assume_role_policy:    \"\" => \"{\\n  \\\"Version\\\": \\\"2012-10-17\\\",\\n  \\\"Statement\\\": [\\n    {\\n      \\\"Sid\\\": \\\"\\\",\\n      \\\"Effect\\\": \\\"Allow\\\",\\n      \\\"Action\\\": \\\"sts:AssumeRole\\\",\\n      \\\"Principal\\\": {\\n        \\\"Service\\\": \\\"ecs.amazonaws.com\\\"\\n      }\\n    }\\n  ]\\n}\"\r\n"
+    ],
+    [
+      3.3e-05,
+      "  create_date:           \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "  force_detach_policies: \"\" => \"false\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "  name:                  \"\" => \"blog-ecs-service-role\"\r\n"
+    ],
+    [
+      0.000105,
+      "  path:                  \"\" => \"/\"\r\n"
+    ],
+    [
+      0.000111,
+      "  unique_id:             \"\" => \"<computed>\"\u001b[0m\r\n"
+    ],
+    [
+      0.000104,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_iam_role.ecs_instance: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3.8e-05,
+      "  arn:                   \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.0003,
+      "  assume_role_policy:    \"\" => \"{\\n  \\\"Version\\\": \\\"2012-10-17\\\",\\n  \\\"Statement\\\": [\\n    {\\n      \\\"Sid\\\": \\\"\\\",\\n      \\\"Effect\\\": \\\"Allow\\\",\\n      \\\"Principal\\\": {\\n        \\\"Service\\\": \\\"ec2.amazonaws.com\\\"\\n      },\\n      \\\"Action\\\": \\\"sts:AssumeRole\\\"\\n    }\\n  ]\\n}\\n\"\r\n"
+    ],
+    [
+      7e-05,
+      "  create_date:           \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "  force_detach_policies: \"\" => \"false\"\r\n"
+    ],
+    [
+      6.2e-05,
+      "  name:                  \"\" => \"blog-ecs-instance-role\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "  path:                  \"\" => \"/\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "  unique_id:             \"\" => \"<computed>\"\u001b[0m\r\n"
+    ],
+    [
+      9.9e-05,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_cloudwatch_log_group.ecs: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3.1e-05,
+      "  arn:               \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "  name:              \"\" => \"blog-ecs-group/ecs-agent\"\r\n"
+    ],
+    [
+      0.0001,
+      "  retention_in_days: \"\" => \"0\"\r\n  tags.%:            \"\" => \"2\"\r\n"
+    ],
+    [
+      4.1e-05,
+      "  tags.Environment:  \"\" => \"blog\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "  tags.Name:         \"\" => \"blog-ecs-cluster-sg\"\u001b[0m\r\n"
+    ],
+    [
+      0.5797,
+      "\u001b[0m\u001b[1maws_key_pair.key: Creation complete after 1s (ID: test)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.170629,
+      "\u001b[0m\u001b[1maws_ecs_cluster.cluster: Creation complete after 1s (ID: arn:aws:ecs:us-east-1:736819507440:cluster/blog-ecs-cluster)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.269304,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_iam_role.ecs_instance: Creation complete after 1s (ID: blog-ecs-instance-role)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.005716,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_iam_role_policy.ecs_instance: Creating...\u001b[0m\r\n"
+    ],
+    [
+      9.6e-05,
+      "  name:   \"\" => \"blog-ecs-instance-role\"\r\n"
+    ],
+    [
+      0.002212,
+      "  policy: \"\" => \"{\\n  \\\"Version\\\": \\\"2012-10-17\\\",\\n  \\\"Statement\\\": [\\n    {\\n      \\\"Sid\\\": \\\"ecsInstanceRole\\\",\\n      \\\"Effect\\\": \\\"Allow\\\",\\n      \\\"Action\\\": [\\n        \\\"ecs:CreateCluster\\\",\\n        \\\"ecs:DeregisterContainerInstance\\\",\\n        \\\"ecs:DiscoverPollEndpoint\\\",\\n        \\\"ecs:Poll\\\",\\n        \\\"ecs:RegisterContainerInstance\\\",\\n        \\\"ecs:StartTelemetrySession\\\",\\n        \\\"ecs:Submit*\\\",\\n        \\\"ecr:GetAuthorizationToken\\\",\\n        \\\"ecr:BatchCheckLayerAvailability\\\",\\n        \\\"ecr:GetDownloadUrlForLayer\\\",\\n        \\\"ecr:BatchGetImage\\\"\\n      ],\\n      \\\"Resource\\\": [\\n        \\\"*\\\"\\n      ]\\n    },\\n    {\\n      \\\"Sid\\\": \\\"allowLoggingToCloudWatch\\\",\\n      \\\"Effect\\\": \\\"Allow\\\",\\n      \\\"Action\\\": [\\n        \\\"logs:CreateLogGroup\\\",\\n        \\\"logs:CreateLogStream\\\",\\n        \\\"logs:PutLogEvents\\\",\\n        \\\"logs:DescribeLogStreams\\\"\\n      ],\\n      \\\"Resource\\\": [\\n        \\\"arn:aws:logs:*:*:*\\\"\\n      ]\\n    }\\n  ]\\n}\\n\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  role:   \"\" => \"blog-ecs-instance-role\"\u001b[0m\r\n"
+    ],
+    [
+      0.000127,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_iam_instance_profile.ecs_instance: Creating...\u001b[0m\r\n"
+    ],
+    [
+      4.7e-05,
+      "  arn:         \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000115,
+      "  create_date: \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      3.4e-05,
+      "  name:        \"\" => \"blog-ecs-instance-profile\"\r\n  path:        \"\" => \"/\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "  role:        \"\" => \"blog-ecs-instance-role\"\r\n"
+    ],
+    [
+      6.5e-05,
+      "  roles.#:     \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "  unique_id:   \"\" => \"<computed>\"\u001b[0m\r\n"
+    ],
+    [
+      0.009448,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_iam_role.ecs_service_role: Creation complete after 1s (ID: blog-ecs-service-role)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.004133,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_iam_role_policy.service_role_policy: Creating...\u001b[0m\r\n"
+    ],
+    [
+      4.2e-05,
+      "  name:   \"\" => \"blog-ecs-service-role-policy\"\r\n"
+    ],
+    [
+      0.001596,
+      "  policy: \"\" => \"{\\n    \\\"Version\\\": \\\"2012-10-17\\\",\\n    \\\"Statement\\\": [\\n        {\\n            \\\"Effect\\\": \\\"Allow\\\",\\n            \\\"Action\\\": [\\n                \\\"ec2:AttachNetworkInterface\\\",\\n                \\\"ec2:CreateNetworkInterface\\\",\\n                \\\"ec2:CreateNetworkInterfacePermission\\\",\\n                \\\"ec2:DeleteNetworkInterface\\\",\\n                \\\"ec2:DeleteNetworkInterfacePermission\\\",\\n                \\\"ec2:Describe*\\\",\\n                \\\"ec2:DetachNetworkInterface\\\",\\n                \\\"elasticloadbalancing:DeregisterInstancesFromLoadBalancer\\\",\\n                \\\"elasticloadbalancing:DeregisterTargets\\\",\\n                \\\"elasticloadbalancing:Describe*\\\",\\n                \\\"elasticloadbalancing:RegisterInstancesWithLoadBalancer\\\",\\n                \\\"elasticloadbalancing:RegisterTargets\\\"\\n            ],\\n            \\\"Resource\\\": \\\"*\\\"\\n        }\\n    ]\\n}\\n\"\r\n"
+    ],
+    [
+      6.6e-05,
+      "  role:   \"\" => \"blog-ecs-service-role\"\u001b[0m\r\n"
+    ],
+    [
+      0.010314,
+      "\u001b[0m\u001b[1maws_iam_role.ecs_tasks_execution_role: Creation complete after 1s (ID: blog-ecs-task-execution-role)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.002699,
+      "\u001b[0m\u001b[1maws_iam_role_policy_attachment.ecs_tasks_execution_role: Creating...\u001b[0m\r\n"
+    ],
+    [
+      9e-05,
+      "  policy_arn: \"\" => \"arn:aws:iam::aws:policy/service-role/AmazonECSTaskExecutionRolePolicy\"\r\n"
+    ],
+    [
+      8.3e-05,
+      "  role:       \"\" => \"blog-ecs-task-execution-role\"\u001b[0m\r\n"
+    ],
+    [
+      0.432236,
+      "\u001b[0m\u001b[1maws_cloudwatch_log_group.log_group: Creation complete after 1s (ID: blog)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.00404,
+      "\u001b[0m\u001b[1mdata.template_file.blog: Refreshing state...\u001b[0m\r\n"
+    ],
+    [
+      7e-05,
+      "\u001b[0m\u001b[1mdata.template_file.blog_ecs: Refreshing state...\u001b[0m\r\n"
+    ],
+    [
+      0.006835,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_ecs_task_definition.main: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3.7e-05,
+      "  arn:                                 \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000616,
+      "  container_definitions:               \"\" => \"[{\\\"environment\\\":[],\\\"essential\\\":true,\\\"image\\\":\\\"npalm/040code.github.io:latest\\\",\\\"logConfiguration\\\":{\\\"logDriver\\\":\\\"awslogs\\\",\\\"options\\\":{\\\"awslogs-group\\\":\\\"blog\\\",\\\"awslogs-region\\\":\\\"us-east-1\\\",\\\"awslogs-stream-prefix\\\":\\\"blog-040\\\"}},\\\"memoryReservation\\\":null,\\\"name\\\":\\\"blog\\\",\\\"portMappings\\\":[{\\\"containerPort\\\":80,\\\"hostPort\\\":80,\\\"protocol\\\":\\\"tcp\\\"}]}]\"\r\n"
+    ],
+    [
+      0.00011,
+      "  cpu:                                 \"\" => \"256\"\r\n"
+    ],
+    [
+      0.000155,
+      "  execution_role_arn:                  \"\" => \"arn:aws:iam::736819507440:role/blog-ecs-task-execution-role\"\r\n"
+    ],
+    [
+      9.8e-05,
+      "  family:                              \"\" => \"blog-blog-040-ecs\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "  memory:                              \"\" => \"512\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "  network_mode:                        \"\" => \"awsvpc\"\r\n"
+    ],
+    [
+      6.3e-05,
+      "  requires_compatibilities.#:          \"\" => \"1\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "  requires_compatibilities.2737437151: \"\" => \"EC2\"\r\n"
+    ],
+    [
+      8.3e-05,
+      "  revision:                            \"\" => \"<computed>\"\u001b[0m\r\n"
+    ],
+    [
+      0.0001,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_ecs_task_definition.main: Creating...\u001b[0m\r\n"
+    ],
+    [
+      0.000103,
+      "  arn:                                 \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000332,
+      "  container_definitions:               \"\" => \"[{\\\"environment\\\":[],\\\"essential\\\":true,\\\"image\\\":\\\"npalm/040code.github.io:latest\\\",\\\"logConfiguration\\\":{\\\"logDriver\\\":\\\"awslogs\\\",\\\"options\\\":{\\\"awslogs-group\\\":\\\"blog\\\",\\\"awslogs-region\\\":\\\"us-east-1\\\",\\\"awslogs-stream-prefix\\\":\\\"blog-040\\\"}},\\\"memoryReservation\\\":null,\\\"name\\\":\\\"blog\\\",\\\"portMappings\\\":[{\\\"containerPort\\\":80,\\\"hostPort\\\":80,\\\"protocol\\\":\\\"tcp\\\"}]}]\"\r\n"
+    ],
+    [
+      4e-05,
+      "  cpu:                                 \"\" => \"256\"\r\n"
+    ],
+    [
+      0.000127,
+      "  execution_role_arn:                  \"\" => \"arn:aws:iam::736819507440:role/blog-ecs-task-execution-role\"\r\n"
+    ],
+    [
+      5.3e-05,
+      "  family:                              \"\" => \"blog-blog-040-fg\"\r\n"
+    ],
+    [
+      1.9e-05,
+      "  memory:                              \"\" => \"512\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "  network_mode:                        \"\" => \"awsvpc\"\r\n"
+    ],
+    [
+      6.5e-05,
+      "  requires_compatibilities.#:          \"\" => \"1\"\r\n"
+    ],
+    [
+      2e-05,
+      "  requires_compatibilities.3072437307: \"\" => \"FARGATE\"\r\n"
+    ],
+    [
+      9e-05,
+      "  revision:                            \"\" => \"<computed>\"\u001b[0m\r\n"
+    ],
+    [
+      0.103342,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_iam_role_policy.ecs_instance: Creation complete after 1s (ID: blog-ecs-instance-role:blog-ecs-instance-role)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.002596,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_iam_role_policy.service_role_policy: Creation complete after 1s (ID: blog-ecs-service-role:blog-ecs-service-role-policy)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.125067,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_eip.nat: Creating...\u001b[0m\r\n"
+    ],
+    [
+      5.3e-05,
+      "  allocation_id:     \"\" => \"<computed>\"\r\n  association_id:    \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000101,
+      "  domain:            \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "  instance:          \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "  network_interface: \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000141,
+      "  private_ip:        \"\" => \"<computed>\"\r\n  public_ip:         \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "  vpc:               \"\" => \"true\"\u001b[0m\r\n"
+    ],
+    [
+      5.9e-05,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_vpc.vpc: Creating...\u001b[0m\r\n"
+    ],
+    [
+      0.000153,
+      "  assign_generated_ipv6_cidr_block: \"\" => \"false\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "  cidr_block:                       \"\" => \"10.0.0.0/16\"\r\n"
+    ],
+    [
+      0.000115,
+      "  default_network_acl_id:           \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "  default_route_table_id:           \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "  default_security_group_id:        \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      4.6e-05,
+      "  dhcp_options_id:                  \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.8e-05,
+      "  enable_classiclink:               \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "  enable_classiclink_dns_support:   \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.9e-05,
+      "  enable_dns_hostnames:             \"\" => \"true\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "  enable_dns_support:               \"\" => \"true\"\r\n"
+    ],
+    [
+      0.000118,
+      "  instance_tenancy:                 \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000103,
+      "  ipv6_association_id:              \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "  ipv6_cidr_block:                  \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "  main_route_table_id:              \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  tags.%:                           \"\" => \"2\"\r\n"
+    ],
+    [
+      2.9e-05,
+      "  tags.Environment:                 \"\" => \"blog\"\r\n"
+    ],
+    [
+      0.000109,
+      "  tags.Name:                        \"\" => \"blog-vpc\"\u001b[0m\r\n"
+    ],
+    [
+      0.282511,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_cloudwatch_log_group.ecs: Creation complete after 2s (ID: blog-ecs-group/ecs-agent)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.005907,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.data.template_file.cloud_config: Refreshing state...\u001b[0m\r\n"
+    ],
+    [
+      0.000114,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.data.template_file.ecs_linux: Refreshing state...\u001b[0m\r\n"
+    ],
+    [
+      0.558376,
+      "\u001b[0m\u001b[1maws_iam_role_policy_attachment.ecs_tasks_execution_role: Creation complete after 2s (ID: blog-ecs-task-execution-role-20180126191812616900000001)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.031316,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_ecs_task_definition.main: Creation complete after 2s (ID: blog-blog-040-ecs)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.019781,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_ecs_task_definition.main: Creation complete after 2s (ID: blog-blog-040-fg)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.008413,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_iam_instance_profile.ecs_instance: Creation complete after 2s (ID: blog-ecs-instance-profile)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.318263,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_eip.nat: Creation complete after 1s (ID: eipalloc-e44c51d3)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      6.534561,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_vpc.vpc: Creation complete after 7s (ID: vpc-17a1b36f)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.011057,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.public_subnet[1]: Creating...\u001b[0m\r\n  assign_ipv6_address_on_creation: \"\" => \"false\"\r\n  availability_zone:               \"\" => \"us-east-1b\"\r\n  cidr_block:                      \"\" => \"10.0.1.0/24\"\r\n  ipv6_cidr_block:                 \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000562,
+      "  ipv6_cidr_block_association_id:  \"\" => \"<computed>\"\r\n  map_public_ip_on_launch:         \"\" => \"false\"\r\n  tags.%:                          \"\" => \"2\"\r\n  tags.Environment:                \"\" => \"blog\"\r\n  tags.Name:                       \"\" => \"blog-us-east-1b-public\"\r\n"
+    ],
+    [
+      4.9e-05,
+      "  vpc_id:                          \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n\u001b[0m\u001b[1mmodule.vpc.aws_internet_gateway.internet_gateway: Creating...\u001b[0m\r\n"
+    ],
+    [
+      0.000321,
+      "  tags.%:           \"0\" => \"2\"\r\n  tags.Environment: \"\" => \"blog\"\r\n  tags.Name:        \"\" => \"blog-internet-gateway\"\r\n  vpc_id:           \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n\u001b[0m\u001b[1mmodule.vpc.aws_subnet.private_subnet[0]: Creating...\u001b[0m\r\n"
+    ],
+    [
+      0.000159,
+      "  assign_ipv6_address_on_creation: \"\" => \"false\"\r\n"
+    ],
+    [
+      3e-05,
+      "  availability_zone:               \"\" => \"us-east-1a\"\r\n"
+    ],
+    [
+      0.000163,
+      "  cidr_block:                      \"\" => \"10.0.3.0/24\"\r\n  ipv6_cidr_block:                 \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000126,
+      "  ipv6_cidr_block_association_id:  \"\" => \"<computed>\"\r\n  map_public_ip_on_launch:         \"\" => \"false\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "  tags.%:                          \"\" => \"2\"\r\n"
+    ],
+    [
+      0.000103,
+      "  tags.Environment:                \"\" => \"blog\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "  tags.Name:                       \"\" => \"blog-us-east-1a-private\"\r\n"
+    ],
+    [
+      5.7e-05,
+      "  vpc_id:                          \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      0.000101,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.public_subnet[2]: Creating...\u001b[0m\r\n"
+    ],
+    [
+      8.9e-05,
+      "  assign_ipv6_address_on_creation: \"\" => \"false\"\r\n"
+    ],
+    [
+      0.000112,
+      "  availability_zone:               \"\" => \"us-east-1c\"\r\n"
+    ],
+    [
+      0.000289,
+      "  cidr_block:                      \"\" => \"10.0.2.0/24\"\r\n  ipv6_cidr_block:                 \"\" => \"<computed>\"\r\n  ipv6_cidr_block_association_id:  \"\" => \"<computed>\"\r\n  map_public_ip_on_launch:         \"\" => \"false\"\r\n"
+    ],
+    [
+      2.6e-05,
+      "  tags.%:                          \"\" => \"2\"\r\n"
+    ],
+    [
+      0.000267,
+      "  tags.Environment:                \"\" => \"blog\"\r\n  tags.Name:                       \"\" => \"blog-us-east-1c-public\"\r\n  vpc_id:                          \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      2.4e-05,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.private_subnet[2]: Creating...\u001b[0m\r\n"
+    ],
+    [
+      0.000323,
+      "  assign_ipv6_address_on_creation: \"\" => \"false\"\r\n  availability_zone:               \"\" => \"us-east-1c\"\r\n  cidr_block:                      \"\" => \"10.0.5.0/24\"\r\n  ipv6_cidr_block:                 \"\" => \"<computed>\"\r\n  ipv6_cidr_block_association_id:  \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "  map_public_ip_on_launch:         \"\" => \"false\"\r\n"
+    ],
+    [
+      0.00014,
+      "  tags.%:                          \"\" => \"2\"\r\n  tags.Environment:                \"\" => \"blog\"\r\n"
+    ],
+    [
+      0.000129,
+      "  tags.Name:                       \"\" => \"blog-us-east-1c-private\"\r\n"
+    ],
+    [
+      2.9e-05,
+      "  vpc_id:                          \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      0.000163,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.private_subnet[1]: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3e-05,
+      "  assign_ipv6_address_on_creation: \"\" => \"false\"\r\n"
+    ],
+    [
+      9.4e-05,
+      "  availability_zone:               \"\" => \"us-east-1b\"\r\n"
+    ],
+    [
+      7e-05,
+      "  cidr_block:                      \"\" => \"10.0.4.0/24\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  ipv6_cidr_block:                 \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "  ipv6_cidr_block_association_id:  \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "  map_public_ip_on_launch:         \"\" => \"false\"\r\n"
+    ],
+    [
+      6e-05,
+      "  tags.%:                          \"\" => \"2\"\r\n"
+    ],
+    [
+      7.8e-05,
+      "  tags.Environment:                \"\" => \"blog\"\r\n"
+    ],
+    [
+      9.7e-05,
+      "  tags.Name:                       \"\" => \"blog-us-east-1b-private\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "  vpc_id:                          \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      7.2e-05,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.public_subnet[0]: Creating...\u001b[0m\r\n"
+    ],
+    [
+      6.6e-05,
+      "  assign_ipv6_address_on_creation: \"\" => \"false\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "  availability_zone:               \"\" => \"us-east-1a\"\r\n"
+    ],
+    [
+      0.000106,
+      "  cidr_block:                      \"\" => \"10.0.0.0/24\"\r\n"
+    ],
+    [
+      5.6e-05,
+      "  ipv6_cidr_block:                 \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000485,
+      "  ipv6_cidr_block_association_id:  \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000302,
+      "  map_public_ip_on_launch:         \"\" => \"false\"\r\n"
+    ],
+    [
+      3e-05,
+      "  tags.%:                          \"\" => \"2\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "  tags.Environment:                \"\" => \"blog\"\r\n"
+    ],
+    [
+      5.2e-05,
+      "  tags.Name:                       \"\" => \"blog-us-east-1a-public\"\r\n"
+    ],
+    [
+      0.0001,
+      "  vpc_id:                          \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      5.4e-05,
+      "\u001b[0m\u001b[1maws_security_group.awsvpc_sg: Creating...\u001b[0m\r\n"
+    ],
+    [
+      9.1e-05,
+      "  description:                           \"\" => \"Managed by Terraform\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "  egress.#:                              \"\" => \"1\"\r\n  egress.1403647648.cidr_blocks.#:       \"\" => \"1\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "  egress.1403647648.cidr_blocks.0:       \"\" => \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      6.3e-05,
+      "  egress.1403647648.description:         \"\" => \"\"\r\n"
+    ],
+    [
+      2.1e-05,
+      "  egress.1403647648.from_port:           \"\" => \"0\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "  egress.1403647648.ipv6_cidr_blocks.#:  \"\" => \"0\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "  egress.1403647648.prefix_list_ids.#:   \"\" => \"0\"\r\n"
+    ],
+    [
+      3.8e-05,
+      "  egress.1403647648.protocol:            \"\" => \"tcp\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "  egress.1403647648.security_groups.#:   \"\" => \"0\"\r\n"
+    ],
+    [
+      6.3e-05,
+      "  egress.1403647648.self:                \"\" => \"false\"\r\n"
+    ],
+    [
+      4.4e-05,
+      "  egress.1403647648.to_port:             \"\" => \"65535\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  ingress.#:                             \"\" => \"1\"\r\n"
+    ],
+    [
+      2.5e-05,
+      "  ingress.2165049311.cidr_blocks.#:      \"\" => \"1\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "  ingress.2165049311.cidr_blocks.0:      \"\" => \"10.0.0.0/16\"\r\n"
+    ],
+    [
+      5.7e-05,
+      "  ingress.2165049311.description:        \"\" => \"\"\r\n"
+    ],
+    [
+      4.7e-05,
+      "  ingress.2165049311.from_port:          \"\" => \"80\"\r\n"
+    ],
+    [
+      5.2e-05,
+      "  ingress.2165049311.ipv6_cidr_blocks.#: \"\" => \"0\"\r\n"
+    ],
+    [
+      7e-05,
+      "  ingress.2165049311.protocol:           \"\" => \"tcp\"\r\n"
+    ],
+    [
+      2.6e-05,
+      "  ingress.2165049311.security_groups.#:  \"\" => \"0\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "  ingress.2165049311.self:               \"\" => \"false\"\r\n"
+    ],
+    [
+      7.2e-05,
+      "  ingress.2165049311.to_port:            \"\" => \"80\"\r\n"
+    ],
+    [
+      4.8e-05,
+      "  name:                                  \"\" => \"blog-awsvpc-cluster-sg\"\r\n"
+    ],
+    [
+      6.1e-05,
+      "  owner_id:                              \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "  revoke_rules_on_delete:                \"\" => \"false\"\r\n"
+    ],
+    [
+      2.1e-05,
+      "  tags.%:                                \"\" => \"2\"\r\n"
+    ],
+    [
+      5.7e-05,
+      "  tags.Environment:                      \"\" => \"blog\"\r\n"
+    ],
+    [
+      0.000102,
+      "  tags.Name:                             \"\" => \"blog-ecs-cluster-sg\"\r\n"
+    ],
+    [
+      0.000104,
+      "  vpc_id:                                \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      9.7e-05,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_security_group.alb_sg: Creating...\u001b[0m\r\n"
+    ],
+    [
+      8.7e-05,
+      "  description:                           \"\" => \"controls access to the application LB\"\r\n"
+    ],
+    [
+      4.9e-05,
+      "  egress.#:                              \"\" => \"1\"\r\n"
+    ],
+    [
+      5.6e-05,
+      "  egress.482069346.cidr_blocks.#:        \"\" => \"1\"\r\n"
+    ],
+    [
+      4.8e-05,
+      "  egress.482069346.cidr_blocks.0:        \"\" => \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      1.9e-05,
+      "  egress.482069346.description:          \"\" => \"\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "  egress.482069346.from_port:            \"\" => \"0\"\r\n"
+    ],
+    [
+      2.7e-05,
+      "  egress.482069346.ipv6_cidr_blocks.#:   \"\" => \"0\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "  egress.482069346.prefix_list_ids.#:    \"\" => \"0\"\r\n"
+    ],
+    [
+      5.6e-05,
+      "  egress.482069346.protocol:             \"\" => \"-1\"\r\n"
+    ],
+    [
+      5.8e-05,
+      "  egress.482069346.security_groups.#:    \"\" => \"0\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "  egress.482069346.self:                 \"\" => \"false\"\r\n"
+    ],
+    [
+      7e-05,
+      "  egress.482069346.to_port:              \"\" => \"0\"\r\n"
+    ],
+    [
+      6e-05,
+      "  ingress.#:                             \"\" => \"1\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "  ingress.2214680975.cidr_blocks.#:      \"\" => \"1\"\r\n"
+    ],
+    [
+      7e-05,
+      "  ingress.2214680975.cidr_blocks.0:      \"\" => \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      4.5e-05,
+      "  ingress.2214680975.description:        \"\" => \"\"\r\n"
+    ],
+    [
+      4.2e-05,
+      "  ingress.2214680975.from_port:          \"\" => \"80\"\r\n"
+    ],
+    [
+      5.3e-05,
+      "  ingress.2214680975.ipv6_cidr_blocks.#: \"\" => \"0\"\r\n"
+    ],
+    [
+      5.3e-05,
+      "  ingress.2214680975.protocol:           \"\" => \"tcp\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "  ingress.2214680975.security_groups.#:  \"\" => \"0\"\r\n"
+    ],
+    [
+      0.00227,
+      "  ingress.2214680975.self:               \"\" => \"false\"\r\n"
+    ],
+    [
+      3.5e-05,
+      "  ingress.2214680975.to_port:            \"\" => \"80\"\r\n  name:                                  \"\" => \"blog-blog-040-ecs-alb-sg\"\r\n  owner_id:                              \"\" => \"<computed>\"\r\n  revoke_rules_on_delete:                \"\" => \"false\"\r\n  tags.%:                                \"\" => \"3\"\r\n  tags.Application:                      \"\" => \"blog-040-ecs\"\r\n  tags.Environment:                      \"\" => \"blog\"\r\n  tags.Name:                             \"\" => \"blog-blog-040-ecs-alb-sg\"\r\n  vpc_id:                                \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb_target_group.main: Creating...\u001b[0m\r\n  arn:                                \"\" => \"<computed>\"\r\n  arn_suffix:                         \"\" => \"<computed>\"\r\n  deregistration_delay:               \"\" => \"300\"\r\n  health_check.#:                     \"\" => \"1\"\r\n  health_check.0.healthy_threshold:   \"\" => \"3\"\r\n  health_check.0.interval:            \"\" => \"30\"\r\n  health_check.0.matcher:             \"\" => \"<computed>\"\r\n  health_check.0.path:    "
+    ],
+    [
+      4.1e-05,
+      "            \"\" => \"<computed>\"\r\n  health_check.0.port:                \"\" => \"traffic-port\"\r\n"
+    ],
+    [
+      9.2e-05,
+      "  health_check.0.protocol:            \"\" => \"HTTP\"\r\n"
+    ],
+    [
+      4e-05,
+      "  health_check.0.timeout:             \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      9e-05,
+      "  health_check.0.unhealthy_threshold: \"\" => \"3\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "  name:                               \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      5.5e-05,
+      "  port:                               \"\" => \"80\"\r\n"
+    ],
+    [
+      2.3e-05,
+      "  protocol:                           \"\" => \"HTTP\"\r\n"
+    ],
+    [
+      9.3e-05,
+      "  stickiness.#:                       \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      6.5e-05,
+      "  tags.%:                             \"\" => \"3\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  tags.Application:                   \"\" => \"blog-040-ecs\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "  tags.Environment:                   \"\" => \"blog\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "  tags.Name:                          \"\" => \"blog-blog-040-ecs\"\r\n"
+    ],
+    [
+      2.5e-05,
+      "  target_type:                        \"\" => \"ip\"\r\n"
+    ],
+    [
+      0.000146,
+      "  vpc_id:                             \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      2.75985,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.private_subnet[0]: Creation complete after 3s (ID: subnet-c2caa49f)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.005801,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.public_subnet[1]: Creation complete after 3s (ID: subnet-4f2e0f2b)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.000122,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.private_subnet[2]: Creation complete after 3s (ID: subnet-eb1065c4)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.008378,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.public_subnet[0]: Creation complete after 3s (ID: subnet-4bd8b616)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      5.5e-05,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb_target_group.main: Creating...\u001b[0m\r\n"
+    ],
+    [
+      0.00012,
+      "  arn:                                \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000102,
+      "  arn_suffix:                         \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      4.7e-05,
+      "  deregistration_delay:               \"\" => \"300\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "  health_check.#:                     \"\" => \"1\"\r\n"
+    ],
+    [
+      6.2e-05,
+      "  health_check.0.healthy_threshold:   \"\" => \"3\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "  health_check.0.interval:            \"\" => \"30\"\r\n"
+    ],
+    [
+      9.4e-05,
+      "  health_check.0.matcher:             \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.00012,
+      "  health_check.0.path:                \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "  health_check.0.port:                \"\" => \"traffic-port\"\r\n"
+    ],
+    [
+      8.3e-05,
+      "  health_check.0.protocol:            \"\" => \"HTTP\"\r\n"
+    ],
+    [
+      0.000104,
+      "  health_check.0.timeout:             \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "  health_check.0.unhealthy_threshold: \"\" => \"3\"\r\n"
+    ],
+    [
+      0.000106,
+      "  name:                               \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      9.9e-05,
+      "  port:                               \"\" => \"80\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "  protocol:                           \"\" => \"HTTP\"\r\n"
+    ],
+    [
+      8.9e-05,
+      "  stickiness.#:                       \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  tags.%:                             \"\" => \"3\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "  tags.Application:                   \"\" => \"blog-040-fg\"\r\n"
+    ],
+    [
+      7.3e-05,
+      "  tags.Environment:                   \"\" => \"blog\"\r\n"
+    ],
+    [
+      0.000109,
+      "  tags.Name:                          \"\" => \"blog-blog-040-fg\"\r\n"
+    ],
+    [
+      6.6e-05,
+      "  target_type:                        \"\" => \"ip\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "  vpc_id:                             \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      0.002123,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_security_group.alb_sg: Creating...\u001b[0m\r\n  description:                           \"\" => \"controls access to the application LB\"\r\n"
+    ],
+    [
+      3.4e-05,
+      "  egress.#:                              \"\" => \"1\"\r\n"
+    ],
+    [
+      0.000148,
+      "  egress.482069346.cidr_blocks.#:        \"\" => \"1\"\r\n  egress.482069346.cidr_blocks.0:        \"\" => \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      3.7e-05,
+      "  egress.482069346.description:          \"\" => \"\"\r\n"
+    ],
+    [
+      0.000142,
+      "  egress.482069346.from_port:            \"\" => \"0\"\r\n"
+    ],
+    [
+      0.00014,
+      "  egress.482069346.ipv6_cidr_blocks.#:   \"\" => \"0\"\r\n  egress.482069346.prefix_list_ids.#:    \"\" => \"0\"\r\n"
+    ],
+    [
+      0.000247,
+      "  egress.482069346.protocol:             \"\" => \"-1\"\r\n  egress.482069346.security_groups.#:    \"\" => \"0\"\r\n  egress.482069346.self:                 \"\" => \"false\"\r\n"
+    ],
+    [
+      2.9e-05,
+      "  egress.482069346.to_port:              \"\" => \"0\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "  ingress.#:                             \"\" => \"1\"\r\n"
+    ],
+    [
+      0.000141,
+      "  ingress.2214680975.cidr_blocks.#:      \"\" => \"1\"\r\n"
+    ],
+    [
+      3.5e-05,
+      "  ingress.2214680975.cidr_blocks.0:      \"\" => \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      2.9e-05,
+      "  ingress.2214680975.description:        \"\" => \"\"\r\n"
+    ],
+    [
+      0.000261,
+      "  ingress.2214680975.from_port:          \"\" => \"80\"\r\n  ingress.2214680975.ipv6_cidr_blocks.#: \"\" => \"0\"\r\n  ingress.2214680975.protocol:           \"\" => \"tcp\"\r\n"
+    ],
+    [
+      0.00018,
+      "  ingress.2214680975.security_groups.#:  \"\" => \"0\"\r\n  ingress.2214680975.self:               \"\" => \"false\"\r\n"
+    ],
+    [
+      0.000204,
+      "  ingress.2214680975.to_port:            \"\" => \"80\"\r\n  name:                                  \"\" => \"blog-blog-040-fg-alb-sg\"\r\n"
+    ],
+    [
+      5.5e-05,
+      "  owner_id:                              \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      9.4e-05,
+      "  revoke_rules_on_delete:                \"\" => \"false\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "  tags.%:                                \"\" => \"3\"\r\n"
+    ],
+    [
+      0.000111,
+      "  tags.Application:                      \"\" => \"blog-040-fg\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  tags.Environment:                      \"\" => \"blog\"\r\n"
+    ],
+    [
+      9.7e-05,
+      "  tags.Name:                             \"\" => \"blog-blog-040-fg-alb-sg\"\r\n"
+    ],
+    [
+      0.000156,
+      "  vpc_id:                                \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      3.2e-05,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Creating...\u001b[0m\r\n"
+    ],
+    [
+      7.7e-05,
+      "  allocation_id:        \"\" => \"eipalloc-e44c51d3\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "  network_interface_id: \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      6.8e-05,
+      "  private_ip:           \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      2.8e-05,
+      "  public_ip:            \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "  subnet_id:            \"\" => \"subnet-4bd8b616\"\u001b[0m\r\n"
+    ],
+    [
+      0.000131,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_security_group.instance_sg: Creating...\u001b[0m\r\n"
+    ],
+    [
+      6.9e-05,
+      "  description:                           \"\" => \"controls access to ecs-cluster instances\"\r\n"
+    ],
+    [
+      8.3e-05,
+      "  egress.#:                              \"\" => \"1\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "  egress.1403647648.cidr_blocks.#:       \"\" => \"1\"\r\n"
+    ],
+    [
+      7e-05,
+      "  egress.1403647648.cidr_blocks.0:       \"\" => \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      8.8e-05,
+      "  egress.1403647648.description:         \"\" => \"\"\r\n"
+    ],
+    [
+      9.3e-05,
+      "  egress.1403647648.from_port:           \"\" => \"0\"\r\n"
+    ],
+    [
+      5.8e-05,
+      "  egress.1403647648.ipv6_cidr_blocks.#:  \"\" => \"0\"\r\n"
+    ],
+    [
+      5.5e-05,
+      "  egress.1403647648.prefix_list_ids.#:   \"\" => \"0\"\r\n"
+    ],
+    [
+      7e-05,
+      "  egress.1403647648.protocol:            \"\" => \"tcp\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "  egress.1403647648.security_groups.#:   \"\" => \"0\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "  egress.1403647648.self:                \"\" => \"false\"\r\n"
+    ],
+    [
+      2.7e-05,
+      "  egress.1403647648.to_port:             \"\" => \"65535\"\r\n"
+    ],
+    [
+      4.9e-05,
+      "  ingress.#:                             \"\" => \"1\"\r\n"
+    ],
+    [
+      5.8e-05,
+      "  ingress.3581498979.cidr_blocks.#:      \"\" => \"1\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "  ingress.3581498979.cidr_blocks.0:      \"\" => \"10.0.0.0/16\"\r\n"
+    ],
+    [
+      2.1e-05,
+      "  ingress.3581498979.description:        \"\" => \"\"\r\n"
+    ],
+    [
+      6.3e-05,
+      "  ingress.3581498979.from_port:          \"\" => \"0\"\r\n"
+    ],
+    [
+      5e-05,
+      "  ingress.3581498979.ipv6_cidr_blocks.#: \"\" => \"0\"\r\n"
+    ],
+    [
+      5.5e-05,
+      "  ingress.3581498979.protocol:           \"\" => \"tcp\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "  ingress.3581498979.security_groups.#:  \"\" => \"0\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  ingress.3581498979.self:               \"\" => \"false\"\r\n"
+    ],
+    [
+      4.7e-05,
+      "  ingress.3581498979.to_port:            \"\" => \"65535\"\r\n"
+    ],
+    [
+      5.7e-05,
+      "  name:                                  \"\" => \"blog-ecs-cluster-sg\"\r\n"
+    ],
+    [
+      5.2e-05,
+      "  owner_id:                              \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      4.3e-05,
+      "  revoke_rules_on_delete:                \"\" => \"false\"\r\n"
+    ],
+    [
+      4.6e-05,
+      "  tags.%:                                \"\" => \"2\"\r\n"
+    ],
+    [
+      4.5e-05,
+      "  tags.Environment:                      \"\" => \"blog\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "  tags.Name:                             \"\" => \"blog-ecs-cluster-sg\"\r\n"
+    ],
+    [
+      7e-05,
+      "  vpc_id:                                \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      0.248321,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.public_subnet[2]: Creation complete after 4s (ID: subnet-ba2d5895)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.016182,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_subnet.private_subnet[1]: Creation complete after 4s (ID: subnet-503a1b34)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.215429,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_internet_gateway.internet_gateway: Creation complete after 4s (ID: igw-57f1f32e)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.007918,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table.public_routetable: Creating...\u001b[0m\r\n"
+    ],
+    [
+      7.2e-05,
+      "  propagating_vgws.#:                        \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000124,
+      "  route.#:                                   \"\" => \"1\"\r\n"
+    ],
+    [
+      9.9e-05,
+      "  route.885393202.cidr_block:                \"\" => \"0.0.0.0/0\"\r\n"
+    ],
+    [
+      0.000127,
+      "  route.885393202.egress_only_gateway_id:    \"\" => \"\"\r\n"
+    ],
+    [
+      0.000131,
+      "  route.885393202.gateway_id:                \"\" => \"igw-57f1f32e\"\r\n"
+    ],
+    [
+      0.00011,
+      "  route.885393202.instance_id:               \"\" => \"\"\r\n"
+    ],
+    [
+      9.3e-05,
+      "  route.885393202.ipv6_cidr_block:           \"\" => \"\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "  route.885393202.nat_gateway_id:            \"\" => \"\"\r\n"
+    ],
+    [
+      0.000104,
+      "  route.885393202.network_interface_id:      \"\" => \"\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "  route.885393202.vpc_peering_connection_id: \"\" => \"\"\r\n"
+    ],
+    [
+      5.8e-05,
+      "  tags.%:                                    \"\" => \"2\"\r\n"
+    ],
+    [
+      8e-05,
+      "  tags.Environment:                          \"\" => \"blog\"\r\n"
+    ],
+    [
+      0.000118,
+      "  tags.Name:                                 \"\" => \"blog-public-routetable\"\r\n"
+    ],
+    [
+      0.000137,
+      "  vpc_id:                                    \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      0.990298,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb_target_group.main: Creation complete after 5s (ID: arn:aws:elasticloadbalancing:us-east-1:...126191820483400000002/1450551ac44fa7d6)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      1.455882,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_security_group.alb_sg: Creation complete after 6s (ID: sg-4b71853c)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.008671,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3.1e-05,
+      "  access_logs.#:              \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      6.5e-05,
+      "  arn:                        \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8e-05,
+      "  arn_suffix:                 \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "  dns_name:                   \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      5.3e-05,
+      "  enable_deletion_protection: \"\" => \"false\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "  idle_timeout:               \"\" => \"60\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "  internal:                   \"\" => \"false\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "  ip_address_type:            \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "  load_balancer_type:         \"\" => \"application\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "  name:                       \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "  security_groups.#:          \"\" => \"1\"\r\n"
+    ],
+    [
+      7.9e-05,
+      "  security_groups.3820878700: \"\" => \"sg-4b71853c\"\r\n"
+    ],
+    [
+      4.8e-05,
+      "  subnets.#:                  \"\" => \"3\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "  subnets.198790836:          \"\" => \"subnet-4bd8b616\"\r\n"
+    ],
+    [
+      3.7e-05,
+      "  subnets.2212013803:         \"\" => \"subnet-ba2d5895\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "  subnets.2941363584:         \"\" => \"subnet-4f2e0f2b\"\r\n"
+    ],
+    [
+      3.1e-05,
+      "  tags.%:                     \"\" => \"3\"\r\n"
+    ],
+    [
+      9e-05,
+      "  tags.Application:           \"\" => \"blog-040-ecs\"\r\n"
+    ],
+    [
+      3.8e-05,
+      "  tags.Environment:           \"\" => \"blog\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "  tags.Name:                  \"\" => \"blog-blog-040-ecs\"\r\n"
+    ],
+    [
+      7.1e-05,
+      "  vpc_id:                     \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "  zone_id:                    \"\" => \"<computed>\"\u001b[0m\r\n"
+    ],
+    [
+      0.295566,
+      "\u001b[0m\u001b[1maws_security_group.awsvpc_sg: Creation complete after 7s (ID: sg-23758154)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.049348,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table.public_routetable: Creation complete after 3s (ID: rtb-c24a69bf)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.006474,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.public_routing_table[1]: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3.8e-05,
+      "  route_table_id: \"\" => \"rtb-c24a69bf\"\r\n"
+    ],
+    [
+      2.6e-05,
+      "  subnet_id:      \"\" => \"subnet-4f2e0f2b\"\u001b[0m\r\n"
+    ],
+    [
+      0.000153,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.public_routing_table[0]: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3.2e-05,
+      "  route_table_id: \"\" => \"rtb-c24a69bf\"\r\n"
+    ],
+    [
+      0.000114,
+      "  subnet_id:      \"\" => \"subnet-4bd8b616\"\u001b[0m\r\n"
+    ],
+    [
+      0.000116,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.public_routing_table[2]: Creating...\u001b[0m\r\n"
+    ],
+    [
+      5.3e-05,
+      "  route_table_id: \"\" => \"rtb-c24a69bf\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "  subnet_id:      \"\" => \"subnet-ba2d5895\"\u001b[0m\r\n"
+    ],
+    [
+      0.481203,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb_target_group.main: Creation complete after 4s (ID: arn:aws:elasticloadbalancing:us-east-1:...126191823266400000003/89987336f8bea541)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.067349,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.public_routing_table[0]: Creation complete after 0s (ID: rtbassoc-aba81ad7)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.017253,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.public_routing_table[1]: Creation complete after 0s (ID: rtbassoc-a4a81ad8)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.005549,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.public_routing_table[2]: Creation complete after 0s (ID: rtbassoc-fa962486)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      1.561175,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_security_group.instance_sg: Creation complete after 6s (ID: sg-13708464)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.008897,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_launch_configuration.ecs_instance: Creating...\u001b[0m\r\n  associate_public_ip_address: \"\" => \"false\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "  ebs_block_device.#:          \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      3.3e-05,
+      "  ebs_optimized:               \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "  enable_monitoring:           \"\" => \"true\"\r\n"
+    ],
+    [
+      0.000117,
+      "  iam_instance_profile:        \"\" => \"blog-ecs-instance-profile\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "  image_id:                    \"\" => \"ami-28456852\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "  instance_type:               \"\" => \"t2.small\"\r\n"
+    ],
+    [
+      2.9e-05,
+      "  key_name:                    \"\" => \"test\"\r\n"
+    ],
+    [
+      0.000122,
+      "  name:                        \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      3.1e-05,
+      "  root_block_device.#:         \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      5.9e-05,
+      "  security_groups.#:           \"\" => \"1\"\r\n"
+    ],
+    [
+      3.8e-05,
+      "  security_groups.2586141854:  \"\" => \"sg-13708464\"\r\n"
+    ],
+    [
+      0.000122,
+      "  user_data:                   \"\" => \"2d1f95bd29f39f88d97ad226f7272c6d4fcd1428\"\u001b[0m\r\n"
+    ],
+    [
+      1.310031,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_security_group.alb_sg: Creation complete after 7s (ID: sg-5974802e)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.010226,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3.5e-05,
+      "  access_logs.#:              \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000108,
+      "  arn:                        \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "  arn_suffix:                 \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      9.4e-05,
+      "  dns_name:                   \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      3.1e-05,
+      "  enable_deletion_protection: \"\" => \"false\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "  idle_timeout:               \"\" => \"60\"\r\n"
+    ],
+    [
+      2.9e-05,
+      "  internal:                   \"\" => \"false\"\r\n"
+    ],
+    [
+      8e-05,
+      "  ip_address_type:            \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      9.4e-05,
+      "  load_balancer_type:         \"\" => \"application\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "  name:                       \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      5.7e-05,
+      "  security_groups.#:          \"\" => \"1\"\r\n"
+    ],
+    [
+      0.000114,
+      "  security_groups.815177552:  \"\" => \"sg-5974802e\"\r\n"
+    ],
+    [
+      5.1e-05,
+      "  subnets.#:                  \"\" => \"3\"\r\n"
+    ],
+    [
+      0.000106,
+      "  subnets.198790836:          \"\" => \"subnet-4bd8b616\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "  subnets.2212013803:         \"\" => \"subnet-ba2d5895\"\r\n"
+    ],
+    [
+      3.1e-05,
+      "  subnets.2941363584:         \"\" => \"subnet-4f2e0f2b\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  tags.%:                     \"\" => \"3\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "  tags.Application:           \"\" => \"blog-040-fg\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "  tags.Environment:           \"\" => \"blog\"\r\n"
+    ],
+    [
+      0.000101,
+      "  tags.Name:                  \"\" => \"blog-blog-040-fg\"\r\n"
+    ],
+    [
+      8.6e-05,
+      "  vpc_id:                     \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      6.7e-05,
+      "  zone_id:                    \"\" => \"<computed>\"\u001b[0m\r\n"
+    ],
+    [
+      0.643445,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_launch_configuration.ecs_instance: Creation complete after 2s (ID: terraform-20180126191829238900000005)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.013532,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_autoscaling_group.ecs_instance: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3.4e-05,
+      "  arn:                                \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      8.7e-05,
+      "  default_cooldown:                   \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "  desired_capacity:                   \"\" => \"1\"\r\n"
+    ],
+    [
+      0.000102,
+      "  force_delete:                       \"\" => \"false\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "  health_check_grace_period:          \"\" => \"300\"\r\n"
+    ],
+    [
+      0.000182,
+      "  health_check_type:                  \"\" => \"<computed>\"\r\n  launch_configuration:               \"\" => \"terraform-20180126191829238900000005\"\r\n"
+    ],
+    [
+      0.000106,
+      "  load_balancers.#:                   \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      4.4e-05,
+      "  max_size:                           \"\" => \"2\"\r\n"
+    ],
+    [
+      7.7e-05,
+      "  metrics_granularity:                \"\" => \"1Minute\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "  min_size:                           \"\" => \"1\"\r\n"
+    ],
+    [
+      9.5e-05,
+      "  name:                               \"\" => \"blog-as-group\"\r\n"
+    ],
+    [
+      5.2e-05,
+      "  protect_from_scale_in:              \"\" => \"false\"\r\n"
+    ],
+    [
+      0.000107,
+      "  tag.#:                              \"\" => \"2\"\r\n"
+    ],
+    [
+      4.3e-05,
+      "  tag.2122805005.key:                 \"\" => \"Environment\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "  tag.2122805005.propagate_at_launch: \"\" => \"true\"\r\n"
+    ],
+    [
+      0.000104,
+      "  tag.2122805005.value:               \"\" => \"blog\"\r\n"
+    ],
+    [
+      3.9e-05,
+      "  tag.2676907645.key:                 \"\" => \"Name\"\r\n"
+    ],
+    [
+      7.9e-05,
+      "  tag.2676907645.propagate_at_launch: \"\" => \"true\"\r\n"
+    ],
+    [
+      9.8e-05,
+      "  tag.2676907645.value:               \"\" => \"blog-ecs-cluster\"\r\n"
+    ],
+    [
+      0.000102,
+      "  target_group_arns.#:                \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      2.9e-05,
+      "  vpc_zone_identifier.#:              \"\" => \"3\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "  vpc_zone_identifier.3737917247:     \"\" => \"subnet-eb1065c4\"\r\n"
+    ],
+    [
+      8.1e-05,
+      "  vpc_zone_identifier.3983171746:     \"\" => \"subnet-c2caa49f\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "  vpc_zone_identifier.964953807:      \"\" => \"subnet-503a1b34\"\r\n"
+    ],
+    [
+      7.9e-05,
+      "  wait_for_capacity_timeout:          \"\" => \"10m\"\u001b[0m\r\n"
+    ],
+    [
+      2.575644,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Still creating... (10s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.948559,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (10s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.815683,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (10s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.659238,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_autoscaling_group.ecs_instance: Still creating... (10s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.57668,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Still creating... (20s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.948486,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (20s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.816636,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (20s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.658016,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_autoscaling_group.ecs_instance: Still creating... (20s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.576812,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Still creating... (30s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.94951,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (30s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.816462,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (30s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.658402,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_autoscaling_group.ecs_instance: Still creating... (30s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.575863,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Still creating... (40s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.949472,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (40s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.816997,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (40s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.658645,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_autoscaling_group.ecs_instance: Still creating... (40s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.574851,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Still creating... (50s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.950491,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (50s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.816128,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (50s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.659325,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_autoscaling_group.ecs_instance: Still creating... (50s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.306995,
+      "\u001b[0m\u001b[1mmodule.ecs_instances.aws_autoscaling_group.ecs_instance: Creation complete after 52s (ID: blog-as-group)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.267707,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Still creating... (1m0s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.950441,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (1m0s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.815753,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (1m0s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.233867,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Still creating... (1m10s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.950265,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (1m10s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.816822,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (1m10s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.232974,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Still creating... (1m20s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.950769,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (1m20s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.815915,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (1m20s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.234306,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Still creating... (1m30s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.94968,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (1m30s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.817118,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (1m30s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.234085,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Still creating... (1m40s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.435355,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_nat_gateway.nat: Creation complete after 1m43s (ID: nat-05325e809186d1607)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.009822,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table.private_routetable: Creating...\u001b[0m\r\n"
+    ],
+    [
+      2.6e-05,
+      "  propagating_vgws.#:                         \"\" => \"<computed>\"\r\n  route.#:                                    \"\" => \"1\"\r\n"
+    ],
+    [
+      0.000256,
+      "  route.2510561536.cidr_block:                \"\" => \"0.0.0.0/0\"\r\n  route.2510561536.egress_only_gateway_id:    \"\" => \"\"\r\n  route.2510561536.gateway_id:                \"\" => \"\"\r\n  route.2510561536.instance_id:               \"\" => \"\"\r\n  route.2510561536.ipv6_cidr_block:           \"\" => \"\"\r\n  route.2510561536.nat_gateway_id:            \"\" => \"nat-05325e809186d1607\"\r\n"
+    ],
+    [
+      2.1e-05,
+      "  route.2510561536.network_interface_id:      \"\" => \"\"\r\n"
+    ],
+    [
+      9.5e-05,
+      "  route.2510561536.vpc_peering_connection_id: \"\" => \"\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "  tags.%:                                     \"\" => \"2\"\r\n"
+    ],
+    [
+      4.8e-05,
+      "  tags.Environment:                           \"\" => \"blog\"\r\n"
+    ],
+    [
+      0.00012,
+      "  tags.Name:                                  \"\" => \"blog-private-routetable\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "  vpc_id:                                     \"\" => \"vpc-17a1b36f\"\u001b[0m\r\n"
+    ],
+    [
+      0.502888,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (1m40s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      2.596276,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table.private_routetable: Creation complete after 3s (ID: rtb-d37e5dae)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.009014,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.private_routing_table[2]: Creating...\u001b[0m\r\n  route_table_id: \"\" => \"rtb-d37e5dae\"\r\n"
+    ],
+    [
+      4.4e-05,
+      "  subnet_id:      \"\" => \"subnet-eb1065c4\"\u001b[0m\r\n"
+    ],
+    [
+      0.000233,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.private_routing_table[0]: Creating...\u001b[0m\r\n  route_table_id: \"\" => \"rtb-d37e5dae\"\r\n  subnet_id:      \"\" => \"subnet-c2caa49f\"\u001b[0m\r\n"
+    ],
+    [
+      8.1e-05,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.private_routing_table[1]: Creating...\u001b[0m\r\n"
+    ],
+    [
+      7.6e-05,
+      "  route_table_id: \"\" => \"rtb-d37e5dae\"\r\n"
+    ],
+    [
+      8.4e-05,
+      "  subnet_id:      \"\" => \"subnet-503a1b34\"\u001b[0m\r\n"
+    ],
+    [
+      0.624663,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.private_routing_table[0]: Creation complete after 0s (ID: rtbassoc-d5a416a9)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.024994,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.private_routing_table[1]: Creation complete after 0s (ID: rtbassoc-2e972552)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.009419,
+      "\u001b[0m\u001b[1mmodule.vpc.aws_route_table_association.private_routing_table[2]: Creation complete after 0s (ID: rtbassoc-2d922051)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.553288,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (1m40s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      6.182614,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (1m50s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.817927,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (1m50s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      6.181416,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (2m0s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.819388,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (2m0s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      6.180557,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Still creating... (2m10s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      3.819247,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Still creating... (2m10s elapsed)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      4.793429,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb.main: Creation complete after 2m19s (ID: arn:aws:elasticloadbalancing:us-east-1:...126191826219400000004/19ad43640d5dd2f0)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.008441,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb_listener.main: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3.3e-05,
+      "  arn:                               \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  default_action.#:                  \"\" => \"1\"\r\n"
+    ],
+    [
+      0.00018,
+      "  default_action.0.target_group_arn: \"\" => \"arn:aws:elasticloadbalancing:us-east-1:736819507440:targetgroup/tf-20180126191820483400000002/1450551ac44fa7d6\"\r\n"
+    ],
+    [
+      4.9e-05,
+      "  default_action.0.type:             \"\" => \"forward\"\r\n"
+    ],
+    [
+      0.000243,
+      "  load_balancer_arn:                 \"\" => \"arn:aws:elasticloadbalancing:us-east-1:736819507440:loadbalancer/app/tf-lb-20180126191826219400000004/19ad43640d5dd2f0\"\r\n"
+    ],
+    [
+      4.6e-05,
+      "  port:                              \"\" => \"80\"\r\n"
+    ],
+    [
+      3.7e-05,
+      "  protocol:                          \"\" => \"HTTP\"\r\n"
+    ],
+    [
+      5.5e-05,
+      "  ssl_policy:                        \"\" => \"<computed>\"\u001b[0m\r\n"
+    ],
+    [
+      1.030835,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_alb_listener.main: Creation complete after 1s (ID: arn:aws:elasticloadbalancing:us-east-1:...0004/19ad43640d5dd2f0/3c5a1d568b8e060b)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.0114,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_ecs_service.awsvpc_alb: Creating...\u001b[0m\r\n"
+    ],
+    [
+      0.000172,
+      "  cluster:                                            \"\" => \"arn:aws:ecs:us-east-1:736819507440:cluster/blog-ecs-cluster\"\r\n"
+    ],
+    [
+      9.4e-05,
+      "  deployment_maximum_percent:                         \"\" => \"200\"\r\n"
+    ],
+    [
+      0.000102,
+      "  deployment_minimum_healthy_percent:                 \"\" => \"100\"\r\n"
+    ],
+    [
+      0.000131,
+      "  desired_count:                                      \"\" => \"1\"\r\n"
+    ],
+    [
+      9.5e-05,
+      "  iam_role:                                           \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000151,
+      "  launch_type:                                        \"\" => \"EC2\"\r\n"
+    ],
+    [
+      4.1e-05,
+      "  load_balancer.#:                                    \"\" => \"1\"\r\n"
+    ],
+    [
+      0.000125,
+      "  load_balancer.423305910.container_name:             \"\" => \"blog\"\r\n"
+    ],
+    [
+      6.1e-05,
+      "  load_balancer.423305910.container_port:             \"\" => \"80\"\r\n"
+    ],
+    [
+      0.000109,
+      "  load_balancer.423305910.elb_name:                   \"\" => \"\"\r\n"
+    ],
+    [
+      0.000285,
+      "  load_balancer.423305910.target_group_arn:           \"\" => \"arn:aws:elasticloadbalancing:us-east-1:736819507440:targetgroup/tf-20180126191820483400000002/1450551ac44fa7d6\"\r\n"
+    ],
+    [
+      9.6e-05,
+      "  name:                                               \"\" => \"blog-040-ecs\"\r\n"
+    ],
+    [
+      0.000117,
+      "  network_configuration.#:                            \"\" => \"1\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "  network_configuration.0.security_groups.#:          \"\" => \"1\"\r\n"
+    ],
+    [
+      0.000152,
+      "  network_configuration.0.security_groups.4054613285: \"\" => \"sg-23758154\"\r\n"
+    ],
+    [
+      7.3e-05,
+      "  network_configuration.0.subnets.#:                  \"\" => \"3\"\r\n"
+    ],
+    [
+      0.000119,
+      "  network_configuration.0.subnets.3737917247:         \"\" => \"subnet-eb1065c4\"\r\n"
+    ],
+    [
+      0.000125,
+      "  network_configuration.0.subnets.3983171746:         \"\" => \"subnet-c2caa49f\"\r\n"
+    ],
+    [
+      0.000122,
+      "  network_configuration.0.subnets.964953807:          \"\" => \"subnet-503a1b34\"\r\n"
+    ],
+    [
+      0.000203,
+      "  task_definition:                                    \"\" => \"arn:aws:ecs:us-east-1:736819507440:task-definition/blog-blog-040-ecs:1\"\u001b[0m\r\n"
+    ],
+    [
+      2.221648,
+      "\u001b[0m\u001b[1mmodule.blog-ecs.aws_ecs_service.awsvpc_alb: Creation complete after 2s (ID: arn:aws:ecs:us-east-1:736819507440:service/blog-040-ecs)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.162557,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb.main: Creation complete after 2m18s (ID: arn:aws:elasticloadbalancing:us-east-1:...126191830035300000006/827b605a058adf96)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.009591,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb_listener.main: Creating...\u001b[0m\r\n"
+    ],
+    [
+      3.7e-05,
+      "  arn:                               \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.000142,
+      "  default_action.#:                  \"\" => \"1\"\r\n"
+    ],
+    [
+      0.000171,
+      "  default_action.0.target_group_arn: \"\" => \"arn:aws:elasticloadbalancing:us-east-1:736819507440:targetgroup/tf-20180126191823266400000003/89987336f8bea541\"\r\n"
+    ],
+    [
+      9.2e-05,
+      "  default_action.0.type:             \"\" => \"forward\"\r\n"
+    ],
+    [
+      0.000206,
+      "  load_balancer_arn:                 \"\" => \"arn:aws:elasticloadbalancing:us-east-1:736819507440:loadbalancer/app/tf-lb-20180126191830035300000006/827b605a058adf96\"\r\n"
+    ],
+    [
+      8e-05,
+      "  port:                              \"\" => \"80\"\r\n"
+    ],
+    [
+      9.1e-05,
+      "  protocol:                          \"\" => \"HTTP\"\r\n"
+    ],
+    [
+      7.5e-05,
+      "  ssl_policy:                        \"\" => \"<computed>\"\u001b[0m\r\n"
+    ],
+    [
+      1.032603,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_alb_listener.main: Creation complete after 1s (ID: arn:aws:elasticloadbalancing:us-east-1:...0006/827b605a058adf96/c6373290291a8321)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.010129,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_ecs_service.awsvpc_alb: Creating...\u001b[0m\r\n"
+    ],
+    [
+      0.000174,
+      "  cluster:                                            \"\" => \"arn:aws:ecs:us-east-1:736819507440:cluster/blog-ecs-cluster\"\r\n"
+    ],
+    [
+      6.9e-05,
+      "  deployment_maximum_percent:                         \"\" => \"200\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "  deployment_minimum_healthy_percent:                 \"\" => \"100\"\r\n"
+    ],
+    [
+      8.2e-05,
+      "  desired_count:                                      \"\" => \"1\"\r\n"
+    ],
+    [
+      8e-05,
+      "  iam_role:                                           \"\" => \"<computed>\"\r\n"
+    ],
+    [
+      0.0001,
+      "  launch_type:                                        \"\" => \"FARGATE\"\r\n"
+    ],
+    [
+      9.5e-05,
+      "  load_balancer.#:                                    \"\" => \"1\"\r\n"
+    ],
+    [
+      6.5e-05,
+      "  load_balancer.2896430637.container_name:            \"\" => \"blog\"\r\n"
+    ],
+    [
+      8e-05,
+      "  load_balancer.2896430637.container_port:            \"\" => \"80\"\r\n"
+    ],
+    [
+      3.9e-05,
+      "  load_balancer.2896430637.elb_name:                  \"\" => \"\"\r\n"
+    ],
+    [
+      0.000168,
+      "  load_balancer.2896430637.target_group_arn:          \"\" => \"arn:aws:elasticloadbalancing:us-east-1:736819507440:targetgroup/tf-20180126191823266400000003/89987336f8bea541\"\r\n"
+    ],
+    [
+      9.2e-05,
+      "  name:                                               \"\" => \"blog-040-fg\"\r\n"
+    ],
+    [
+      7.6e-05,
+      "  network_configuration.#:                            \"\" => \"1\"\r\n"
+    ],
+    [
+      8.5e-05,
+      "  network_configuration.0.security_groups.#:          \"\" => \"1\"\r\n"
+    ],
+    [
+      0.00011,
+      "  network_configuration.0.security_groups.4054613285: \"\" => \"sg-23758154\"\r\n"
+    ],
+    [
+      6.4e-05,
+      "  network_configuration.0.subnets.#:                  \"\" => \"3\"\r\n"
+    ],
+    [
+      0.000103,
+      "  network_configuration.0.subnets.3737917247:         \"\" => \"subnet-eb1065c4\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  network_configuration.0.subnets.3983171746:         \"\" => \"subnet-c2caa49f\"\r\n"
+    ],
+    [
+      7.4e-05,
+      "  network_configuration.0.subnets.964953807:          \"\" => \"subnet-503a1b34\"\r\n"
+    ],
+    [
+      0.000132,
+      "  task_definition:                                    \"\" => \"arn:aws:ecs:us-east-1:736819507440:task-definition/blog-blog-040-fg:1\"\u001b[0m\r\n"
+    ],
+    [
+      1.879556,
+      "\u001b[0m\u001b[1mmodule.blog-fg.aws_ecs_service.awsvpc_alb: Creation complete after 2s (ID: arn:aws:ecs:us-east-1:736819507440:service/blog-040-fg)\u001b[0m\u001b[0m\r\n"
+    ],
+    [
+      0.01719,
+      "\u001b[0m\u001b[1m\u001b[32m\r\n"
+    ],
+    [
+      7.5e-05,
+      "Apply complete! Resources: 45 added, 0 changed, 0 destroyed.\u001b[0m\r\n"
+    ],
+    [
+      0.000206,
+      "\u001b[0m\u001b[1m\u001b[32m\r\nOutputs:\r\n"
+    ],
+    [
+      3e-05,
+      "\r\n"
+    ],
+    [
+      0.000156,
+      "blog-ecs-url = http://tf-lb-20180126191826219400000004-794410974.us-east-1.elb.amazonaws.com:80\r\n"
+    ],
+    [
+      0.000203,
+      "blog-fg-url = http://tf-lb-20180126191830035300000006-1291456904.us-east-1.elb.amazonaws.com:80\u001b[0m\r\n"
+    ],
+    [
+      0.012316,
+      "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                    \r \r"
+    ],
+    [
+      0.00019,
+      "\u001b]2;310230212@MACC02QX17YG8WP-2: ~/projects/play/fargate/ecs-service-with-alb/test\u0007"
+    ],
+    [
+      1.9e-05,
+      "\u001b]1;..with-alb/test\u0007"
+    ],
+    [
+      0.048081,
+      "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mtest\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      6.1e-05,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      1.7e-05,
+      "\u001b[?2004h"
+    ],
+    [
+      5.804734,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}
