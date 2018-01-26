@@ -20,8 +20,6 @@ resource "aws_alb_target_group" "main" {
   protocol    = "HTTP"
   vpc_id      = "${module.vpc.vpc_id}"
   target_type = "ip"
-
-  # health_check = "${var.lb_health_check}"
 }
 
 resource "aws_security_group" "alb_sg" {

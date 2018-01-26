@@ -3,6 +3,10 @@ provider "aws" {
   version = "1.7.1"
 }
 
+provider "template" {
+  version = "1.0"
+}
+
 module "vpc" {
   source  = "npalm/vpc/aws"
   version = "1.1.0"
