@@ -1,6 +1,6 @@
 resource "aws_key_pair" "key" {
   key_name   = "${var.key_name}"
-  public_key = "${file("${var.ssh_key_file_ecs}")}"
+  public_key = "${local_file.public_ssh_key.content}"
 }
 
 module "ecs_instances" {

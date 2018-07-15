@@ -16,7 +16,8 @@ data "template_file" "blog" {
 }
 
 module "blog-fg" {
-  source = ".."
+  source  = "npalm/ecs-service/aws"
+  version = "0.1.0"
 
   service_name          = "blog-040-fg"
   service_desired_count = 1
