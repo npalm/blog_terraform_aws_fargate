@@ -7,6 +7,6 @@ install:
 jobs:
   include:
     - stage: verify
-      script: ./ci/bin/verify.sh
+      script: ./ci/bin/verify.sh fargate
     - stage: verify
-      script: ./ci/bin/verify-examples.sh examples
+      script: ./ci/bin/verify.sh fargate-ec2
